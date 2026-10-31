@@ -1,0 +1,503 @@
+{
+  "date": "2026-10-31T17:49:07.1978208Z",
+  "note": "Primera pantalla comparable; fullpage complementaria sin deformar dimensiones. Estado inicial, menú y galerías cerrados, mapa sin cargar. Las capturas ANTES son inmutables.",
+  "before": {
+    "phase": "before",
+    "records": [
+      {
+        "file": "before-desktop.png",
+        "requestedUrl": "https://www.acaciasapart.com.ar/",
+        "finalUrl": "https://www.acaciasapart.com.ar/",
+        "date": "2026-10-31T15:22:50.492Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1455,
+          "height": 5462,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "3c948b7b70109bed0b7d0b0fb85b8c0d6e716e6dc26246514312bb53211d8f5a",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [
+          {
+            "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js",
+            "error": "mixed-content"
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados2.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados3.php",
+            "status": 404
+          }
+        ],
+        "pageErrors": [
+          "$ is not defined"
+        ]
+      },
+      {
+        "file": "before-desktop-fullpage.png",
+        "requestedUrl": "https://www.acaciasapart.com.ar/",
+        "finalUrl": "https://www.acaciasapart.com.ar/",
+        "date": "2026-10-31T15:22:51.629Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 1455,
+          "height": 5462
+        },
+        "document": {
+          "width": 1455,
+          "height": 5462,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "32323a2e71e3abbe8b2649d138a9318935c5459f83c9327c219b488bbe1cae03",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [
+          {
+            "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js",
+            "error": "mixed-content"
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados2.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados3.php",
+            "status": 404
+          }
+        ],
+        "pageErrors": [
+          "$ is not defined"
+        ]
+      },
+      {
+        "file": "before-mobile.png",
+        "requestedUrl": "https://www.acaciasapart.com.ar/",
+        "finalUrl": "https://www.acaciasapart.com.ar/",
+        "date": "2026-10-31T15:23:00.009Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "width": 803,
+          "height": 7955,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "468bb4270212a90c7bc58967419d9473dff72b51040b6769d40816948b7b2e04",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [
+          {
+            "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js",
+            "error": "mixed-content"
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados2.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados3.php",
+            "status": 404
+          }
+        ],
+        "pageErrors": [
+          "$ is not defined"
+        ]
+      },
+      {
+        "file": "before-mobile-fullpage.png",
+        "requestedUrl": "https://www.acaciasapart.com.ar/",
+        "finalUrl": "https://www.acaciasapart.com.ar/",
+        "date": "2026-10-31T15:23:00.904Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 803,
+          "height": 7955
+        },
+        "document": {
+          "width": 803,
+          "height": 7955,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "142439eccc7465193f004eaa135b39e9402240bd964055e312e894c6fa63d678",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [
+          {
+            "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js",
+            "error": "mixed-content"
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados2.php",
+            "status": 404
+          },
+          {
+            "url": "https://www.acaciasapart.com.ar/buscar_enrolados3.php",
+            "status": 404
+          }
+        ],
+        "pageErrors": [
+          "$ is not defined"
+        ]
+      }
+    ]
+  },
+  "proposal": {
+    "phase": "proposal",
+    "records": [
+      {
+        "file": "proposal-desktop.png",
+        "requestedUrl": "http://127.0.0.1:4321/",
+        "finalUrl": "http://127.0.0.1:4321/",
+        "date": "2026-10-31T15:49:35.728Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1440,
+          "height": 4741,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "6c8f31dc2921dad48f734d3b8ce97259ba44cbcd77f82cbf484e5d8c6c23b466",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "proposal-desktop-fullpage.png",
+        "requestedUrl": "http://127.0.0.1:4321/",
+        "finalUrl": "http://127.0.0.1:4321/",
+        "date": "2026-10-31T15:49:36.242Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 1440,
+          "height": 4741
+        },
+        "document": {
+          "width": 1440,
+          "height": 4741,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "0169189d618cd4e2c50cf0ac8d591d3d0aeb65a03d799f18ff9bc50f675f55b3",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "proposal-mobile.png",
+        "requestedUrl": "http://127.0.0.1:4321/",
+        "finalUrl": "http://127.0.0.1:4321/",
+        "date": "2026-10-31T15:49:36.442Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "width": 390,
+          "height": 5180,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "a6106bec49257c23e49a2409ff2ce56a57e12cf0721a3aedc27994043d5e16bf",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "proposal-mobile-fullpage.png",
+        "requestedUrl": "http://127.0.0.1:4321/",
+        "finalUrl": "http://127.0.0.1:4321/",
+        "date": "2026-10-31T15:49:36.788Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 390,
+          "height": 5180
+        },
+        "document": {
+          "width": 390,
+          "height": 5180,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "a59a1da3089ecf215de1e6de145922859c20ee756aeec8f164f22c872b2fe57d",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      }
+    ]
+  },
+  "after": {
+    "phase": "after",
+    "records": [
+      {
+        "file": "after-desktop.png",
+        "requestedUrl": "http://127.0.0.1:4319/",
+        "finalUrl": "http://127.0.0.1:4319/",
+        "date": "2026-10-31T17:48:13.485Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1440,
+          "height": 15276,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "1bf11cefc2383beb52ead858a3b4157370cafd6a341e304eb5653af223a5617d",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "after-desktop-fullpage.png",
+        "requestedUrl": "http://127.0.0.1:4319/",
+        "finalUrl": "http://127.0.0.1:4319/",
+        "date": "2026-10-31T17:48:15.592Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 1440,
+          "height": 15276
+        },
+        "document": {
+          "width": 1440,
+          "height": 15276,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "2cf75bb16fbabbaf13d3d9a2d891b1a221f2b72e62abb7034fae4d198848964b",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "after-mobile.png",
+        "requestedUrl": "http://127.0.0.1:4319/",
+        "finalUrl": "http://127.0.0.1:4319/",
+        "date": "2026-10-31T17:48:15.98Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": false,
+        "imageDimensions": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "width": 390,
+          "height": 15541,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "ac33b1e741f0811071a8a28a35c8c5235619065bd59f3a72075b1c37302123ce",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      },
+      {
+        "file": "after-mobile-fullpage.png",
+        "requestedUrl": "http://127.0.0.1:4319/",
+        "finalUrl": "http://127.0.0.1:4319/",
+        "date": "2026-10-31T17:48:17.042Z",
+        "timeZone": "America/Argentina/Buenos_Aires",
+        "browser": "156.0.4314.50",
+        "channel": "msedge",
+        "playwrightVersion": "1.62.1",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 1,
+        "viewportOnlyEmulation": true,
+        "locale": "es-AR",
+        "colorScheme": "light",
+        "reducedMotion": "no-preference",
+        "fullPage": true,
+        "imageDimensions": {
+          "width": 390,
+          "height": 15541
+        },
+        "document": {
+          "width": 390,
+          "height": 15541,
+          "scrollX": 0,
+          "scrollY": 0
+        },
+        "sha256": "e5f1f5d5dbbe9c8154902dae5031fcb341aa42a78be18f1c42d86523f8a156ac",
+        "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+        "failedResources": [],
+        "pageErrors": []
+      }
+    ]
+  }
+}

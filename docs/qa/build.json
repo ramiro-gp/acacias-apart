@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-31T16:32:30.402Z",
+  "node": "24.12.0",
+  "pnpm": "11.7.0",
+  "versions": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.4.4",
+    "photoswipe": "5.4.4",
+    "tailwindcss": "4.3.3",
+    "@astrojs/check": "0.9.12",
+    "@astrojs/sitemap": "3.7.4",
+    "@axe-core/playwright": "4.14.0",
+    "lighthouse": "13.6.0",
+    "playwright": "1.62.1",
+    "typescript": "6.0.3"
+  },
+  "typeCheck": {
+    "files": 37,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": "Astro static release, successful",
+  "preservation": "57 resources + original HTML + 4 BEFORE + 4 AFTER hashes verified",
+  "archive": "artifacts/acacias-apart-static.zip",
+  "archiveSHA256": "ef4978307f3cb314784185329d621cddb3e7840e4ac90dc38b556b515236d756",
+  "independentZIPValidation": "Python zipfile: CRC + every file SHA-256 + private exclusions + exact PDF paths passed",
+  "deploymentPerformed": false
+}

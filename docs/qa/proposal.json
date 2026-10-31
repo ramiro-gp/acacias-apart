@@ -1,0 +1,74 @@
+{
+  "stage": "H2 proposal, not final acceptance",
+  "date": "2026-10-31T15:47:44.826Z",
+  "browser": "156.0.4314.50",
+  "url": "http://127.0.0.1:4321/",
+  "viewports": [
+    {
+      "width": 320,
+      "viewport": 320,
+      "document": 320,
+      "client": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "document": 390,
+      "client": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "client": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1024,
+      "viewport": 1024,
+      "document": 1024,
+      "client": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "client": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "client": 1920,
+      "horizontalOverflow": false
+    }
+  ],
+  "scenarios": [
+    "Sin desborde horizontal en 320, 390, 768, 1024, 1440 y 1920.",
+    "Menú por teclado, cierre con Escape y enlace; foco restaurado; detalles nativos por teclado.",
+    "WhatsApp con destino confirmado e iconos; externos seguros; mailto nativo; tres PDF originales accesibles.",
+    "Lightbox: apertura, flecha siguiente, flotante oculto, Escape y foco restaurado.",
+    "Movimiento reducido: scroll no animado y galería utilizable.",
+    "Sin JavaScript a 320px: navegación visible, detalles nativos y enlace directo a imagen."
+  ],
+  "pageErrors": [],
+  "failedResources": [],
+  "externalRequests": [],
+  "accessibility": [
+    {
+      "state": "desktop document",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "state": "lightbox open",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "passed": true
+}

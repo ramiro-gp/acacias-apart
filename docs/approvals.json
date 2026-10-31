@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-31",
+  "source": "Confirmaciones explícitas del usuario en esta conversación",
+  "visualApproved": true,
+  "publishedContentConfirmed": true,
+  "whatsappConfirmed": true,
+  "removeCovidNotice": true,
+  "removeSafeTravelsBadge": true,
+  "copyright": "Año actual siempre, calculado en America/Argentina/Buenos_Aires",
+  "mapsEmbedConfirmed": true,
+  "omittedUnconfirmedFields": ["Capacidad del monoambiente", "Domicilio de calle"],
+  "deploymentAuthorized": false,
+  "hostingProvider": "Wiroos, confirmado por el usuario",
+  "uploadMethod": "Pendiente de comprobar en la cuenta; el usuario cree que es administrador de archivos tipo cPanel",
+  "searchConsole": "No existe una propiedad, según el usuario"
+}

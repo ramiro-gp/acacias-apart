@@ -1,0 +1,38 @@
+---
+import { accommodations } from '../../data/accommodations';
+import { photo } from '../../data/photos';
+import ContactButton from '../ui/ContactButton.astro';
+import PhotoLink from '../ui/PhotoLink.astro';
+import Icon from '../ui/Icon.astro';
+const featured = ['three-room-20210816_170252', 'two-room-05', 'studio-04'];
+const roomHeadings = ['Departamento de tres ambientes', 'Departamento de dos ambientes', 'Monoambiente equipado'];
+---
+<section id="deptos" class="accommodations shell" aria-labelledby="accommodations-title">
+  <div class="section-heading"><div><p class="eyebrow">TU ESPACIO EN LA PAZ</p><h2 id="accommodations-title">Sentite como en <em>casa.</em></h2></div><p>Tres formas de alojarte.<br />El mismo lugar para descansar.</p></div>
+  <nav class="room-navigation" aria-label="Tipos de alojamiento">{accommodations.map(room => <a href={`#${room.id}`}>{room.name}<Icon name="arrow-down" size={15} /></a>)}</nav>
+  {accommodations.map((room, index) => {
+    const main = photo(featured[index]!);
+    const remaining = room.photos.filter(id => id !== main.id).map(photo);
+    return <article id={room.id} class="room-preview" aria-labelledby={`${room.id}-title`} data-accommodation={room.id}>
+      <div class="room-photography" data-gallery={room.id}>
+        <PhotoLink class="room-primary-photo" src={main.image} alt={main.alt} photoId={main.id} caption="Tu espacio para descansar." />
+        <div class="room-thumbnails" role="group" aria-label={`Más fotografías: ${room.name}`}>
+          {remaining.map(item => <PhotoLink src={item.image} alt={item.alt} photoId={item.id} sizes="(max-width: 699px) 108px, 150px" />)}
+        </div>
+      </div>
+      <div class="room-copy">
+        <p class="room-number" aria-hidden="true">0{index + 1} <span>/</span> DEPARTAMENTOS</p>
+        <h3 id={`${room.id}-title`}>{roomHeadings[index]}</h3><p class="room-summary">{room.summary}</p>
+        <dl class="room-facts">
+          {room.capacity !== null && <div><dt>Capacidad</dt><dd>{room.capacity} personas</dd></div>}
+          <div><dt>Superficie</dt><dd>{room.area} m²</dd></div>
+          <div><dt>Distribución</dt><dd>{room.bedrooms ? `${room.bedrooms} ${room.bedrooms === 1 ? 'dormitorio' : 'dormitorios'}` : 'Un ambiente'}</dd></div>
+        </dl>
+        <ul class="room-highlights"><li>Cocina equipada</li><li>Aire frío/calor</li><li>Ropa blanca</li><li>{room.pets ? <a href="#linkmascotas">Mascotas: ver reglamento</a> : 'No admite mascotas'}</li></ul>
+        <details class="equipment-details"><summary>Todos los detalles <Icon name="plus" size={18} /></summary><div class="details-content"><ul>{[...room.distribution, ...room.equipment].map(item => <li>{item}</li>)}</ul></div></details>
+        <a class="text-link plan-link" href={room.plan} target="_blank" rel="noopener noreferrer">Ver plano del departamento <Icon name="arrow" size={17} /><span class="sr-only">PDF, se abre en otra pestaña</span></a>
+        <ContactButton label="Consultar este departamento" message={`Hola, quisiera consultar disponibilidad del departamento ${room.name.toLowerCase()} en Acacias Apart.`} />
+      </div>
+    </article>;
+  })}
+</section>

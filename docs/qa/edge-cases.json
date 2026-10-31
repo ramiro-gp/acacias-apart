@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-31T17:44:58.876Z",
+  "browser": "151.0.7922.34",
+  "scenarios": [
+    "Deslizamiento táctil real de entrada CDP y zoom por control en Chromium móvil emulado.",
+    "404 HTTP real con noindex; error de imagen controlado con mensaje en español, Escape y retorno del foco.",
+    "Copyright actualizado a 2027 en el cliente con reloj futuro, sin reconstruir el HTML de 2026."
+  ],
+  "passed": true
+}

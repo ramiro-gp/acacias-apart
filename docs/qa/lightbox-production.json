@@ -1,0 +1,479 @@
+{
+  "date": "2026-10-31T17:47:09.955Z",
+  "environment": "production",
+  "url": "http://127.0.0.1:4319/",
+  "browser": "151.0.7922.34",
+  "playwright": "1.62.1",
+  "results": [
+    {
+      "viewport": "desktop",
+      "inventories": {
+        "rooms": {
+          "three-room": 5,
+          "two-room": 6,
+          "studio": 5
+        },
+        "complex": 11,
+        "destination": 9,
+        "hiddenGalleryDetails": 0,
+        "uniquePhotoIds": 36
+      },
+      "strip": {
+        "clientWidth": 625,
+        "scrollWidth": 800,
+        "count": 5
+      },
+      "initial": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "right": 1440,
+          "bottom": 900
+        },
+        "position": "fixed",
+        "zIndex": "100000",
+        "image": {
+          "rect": {
+            "x": 270,
+            "y": 0,
+            "width": 900,
+            "height": 900,
+            "right": 1170,
+            "bottom": 900
+          },
+          "naturalWidth": 1080,
+          "naturalHeight": 1080
+        },
+        "controls": [
+          {
+            "selector": ".pswp__button--arrow--prev",
+            "label": "Imagen anterior",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "display": "none",
+            "visibility": "visible",
+            "icon": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--arrow--next",
+            "label": "Imagen siguiente",
+            "rect": {
+              "x": 1365,
+              "y": 400,
+              "width": 75,
+              "height": 100,
+              "right": 1440,
+              "bottom": 500
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 1366,
+              "y": 420,
+              "width": 60,
+              "height": 60,
+              "right": 1426,
+              "bottom": 480
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--close",
+            "label": "Cerrar galería",
+            "rect": {
+              "x": 1384,
+              "y": 0,
+              "width": 50,
+              "height": 60,
+              "right": 1434,
+              "bottom": 60
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 1393,
+              "y": 14,
+              "width": 32,
+              "height": 32,
+              "right": 1425,
+              "bottom": 46
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          }
+        ],
+        "counter": "1 de 5",
+        "htmlOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "lockClasses": true,
+        "coveredFooter": true,
+        "rootCss": [
+          "http://127.0.0.1:4319/_astro/Brand.DvAW9nze.css"
+        ],
+        "photoSwipeCssLoaded": true
+      },
+      "afterNext": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "right": 1440,
+          "bottom": 900
+        },
+        "position": "fixed",
+        "zIndex": "100000",
+        "image": {
+          "rect": {
+            "x": 270,
+            "y": 0,
+            "width": 900,
+            "height": 900,
+            "right": 1170,
+            "bottom": 900
+          },
+          "naturalWidth": 1600,
+          "naturalHeight": 1600
+        },
+        "controls": [
+          {
+            "selector": ".pswp__button--arrow--prev",
+            "label": "Imagen anterior",
+            "rect": {
+              "x": 0,
+              "y": 400,
+              "width": 75,
+              "height": 100,
+              "right": 75,
+              "bottom": 500
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 9,
+              "y": 420,
+              "width": 60,
+              "height": 60,
+              "right": 69,
+              "bottom": 480
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--arrow--next",
+            "label": "Imagen siguiente",
+            "rect": {
+              "x": 1365,
+              "y": 400,
+              "width": 75,
+              "height": 100,
+              "right": 1440,
+              "bottom": 500
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 1366,
+              "y": 420,
+              "width": 60,
+              "height": 60,
+              "right": 1426,
+              "bottom": 480
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--close",
+            "label": "Cerrar galería",
+            "rect": {
+              "x": 1384,
+              "y": 0,
+              "width": 50,
+              "height": 60,
+              "right": 1434,
+              "bottom": 60
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 1393,
+              "y": 14,
+              "width": 32,
+              "height": 32,
+              "right": 1425,
+              "bottom": 46
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          }
+        ],
+        "counter": "2 de 5",
+        "htmlOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "lockClasses": true,
+        "coveredFooter": true,
+        "rootCss": [
+          "http://127.0.0.1:4319/_astro/Brand.DvAW9nze.css"
+        ],
+        "photoSwipeCssLoaded": true
+      },
+      "screenshot": "C:\\Codigo\\acacias-apart\\docs\\qa\\lightbox\\production-desktop-lightbox.png",
+      "allRoomThumbnailsOpenAtIndex": true,
+      "singlePhotoAlbum": true,
+      "backdropClose": true
+    },
+    {
+      "viewport": "mobile",
+      "inventories": {
+        "rooms": {
+          "three-room": 5,
+          "two-room": 6,
+          "studio": 5
+        },
+        "complex": 11,
+        "destination": 9,
+        "hiddenGalleryDetails": 0,
+        "uniquePhotoIds": 36
+      },
+      "strip": {
+        "clientWidth": 342,
+        "scrollWidth": 590,
+        "count": 5
+      },
+      "initial": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "right": 390,
+          "bottom": 844
+        },
+        "position": "fixed",
+        "zIndex": "100000",
+        "image": {
+          "rect": {
+            "x": 0,
+            "y": 227,
+            "width": 390,
+            "height": 390,
+            "right": 390,
+            "bottom": 617
+          },
+          "naturalWidth": 1080,
+          "naturalHeight": 1080
+        },
+        "controls": [
+          {
+            "selector": ".pswp__button--arrow--prev",
+            "label": "Imagen anterior",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "display": "none",
+            "visibility": "visible",
+            "icon": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--arrow--next",
+            "label": "Imagen siguiente",
+            "rect": {
+              "x": 315,
+              "y": 372,
+              "width": 75,
+              "height": 100,
+              "right": 390,
+              "bottom": 472
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 316,
+              "y": 392,
+              "width": 60,
+              "height": 60,
+              "right": 376,
+              "bottom": 452
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--close",
+            "label": "Cerrar galería",
+            "rect": {
+              "x": 334,
+              "y": 0,
+              "width": 50,
+              "height": 60,
+              "right": 384,
+              "bottom": 60
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 343,
+              "y": 14,
+              "width": 32,
+              "height": 32,
+              "right": 375,
+              "bottom": 46
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          }
+        ],
+        "counter": "1 de 5",
+        "htmlOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "lockClasses": true,
+        "coveredFooter": true,
+        "rootCss": [
+          "http://127.0.0.1:4319/_astro/Brand.DvAW9nze.css"
+        ],
+        "photoSwipeCssLoaded": true
+      },
+      "afterNext": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "right": 390,
+          "bottom": 844
+        },
+        "position": "fixed",
+        "zIndex": "100000",
+        "image": {
+          "rect": {
+            "x": 0,
+            "y": 227,
+            "width": 390,
+            "height": 390,
+            "right": 390,
+            "bottom": 617
+          },
+          "naturalWidth": 1600,
+          "naturalHeight": 1600
+        },
+        "controls": [
+          {
+            "selector": ".pswp__button--arrow--prev",
+            "label": "Imagen anterior",
+            "rect": {
+              "x": 0,
+              "y": 372,
+              "width": 75,
+              "height": 100,
+              "right": 75,
+              "bottom": 472
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 9,
+              "y": 392,
+              "width": 60,
+              "height": 60,
+              "right": 69,
+              "bottom": 452
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--arrow--next",
+            "label": "Imagen siguiente",
+            "rect": {
+              "x": 315,
+              "y": 372,
+              "width": 75,
+              "height": 100,
+              "right": 390,
+              "bottom": 472
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 316,
+              "y": 392,
+              "width": 60,
+              "height": 60,
+              "right": 376,
+              "bottom": 452
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".pswp__button--close",
+            "label": "Cerrar galería",
+            "rect": {
+              "x": 334,
+              "y": 0,
+              "width": 50,
+              "height": 60,
+              "right": 384,
+              "bottom": 60
+            },
+            "display": "block",
+            "visibility": "visible",
+            "icon": {
+              "x": 343,
+              "y": 14,
+              "width": 32,
+              "height": 32,
+              "right": 375,
+              "bottom": 46
+            },
+            "iconFill": "rgb(255, 255, 255)"
+          }
+        ],
+        "counter": "2 de 5",
+        "htmlOverflow": "hidden",
+        "bodyOverflow": "hidden",
+        "lockClasses": true,
+        "coveredFooter": true,
+        "rootCss": [
+          "http://127.0.0.1:4319/_astro/Brand.DvAW9nze.css"
+        ],
+        "photoSwipeCssLoaded": true
+      },
+      "screenshot": "C:\\Codigo\\acacias-apart\\docs\\qa\\lightbox\\production-mobile-lightbox.png",
+      "allRoomThumbnailsOpenAtIndex": true,
+      "touchSwipe": true,
+      "singlePhotoAlbum": true,
+      "backdropClose": true
+    }
+  ],
+  "screenshots": [
+    "C:\\Codigo\\acacias-apart\\docs\\qa\\lightbox\\production-desktop-lightbox.png",
+    "C:\\Codigo\\acacias-apart\\docs\\qa\\lightbox\\production-mobile-lightbox.png"
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "report": "C:\\Codigo\\acacias-apart\\docs\\qa\\lightbox-production.json"
+}

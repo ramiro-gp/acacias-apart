@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+import { whatsappUrl } from '../../data/site';
+interface Props { label?: string; message?: string; variant?: 'primary' | 'outline' | 'light'; class?: string; }
+const { label = 'Consultar disponibilidad', message, variant = 'primary', class: className } = Astro.props;
+---
+<a href={whatsappUrl(message)} target="_blank" rel="noopener noreferrer" class:list={['button', `button-${variant}`, className]}>
+  <Icon name="whatsapp" size={19} />
+  <span>{label}</span>
+  <span class="sr-only">{/whatsapp/i.test(label) ? '(se abre en otra pestaña)' : 'por WhatsApp (se abre en otra pestaña)'}</span>
+  <Icon name="arrow" size={17} />
+</a>

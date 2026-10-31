@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+artifacts/
+.vercel/
+coverage/
+docs/source/original-assets/
+docs/audit/previews/
+docs/audit/photo-contact-sheet.jpg
+docs/qa/capture-attempt/
+*.log

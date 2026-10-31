@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-31T17:52:10.359Z",
+  "archive": "artifacts/acacias-apart-static.zip",
+  "sha256": "d97c43265c8ed5d1da85acabd331609d0bf533ec3f0c606c28a05d3f5b94667d",
+  "compressedBytes": 33955847,
+  "totalBytes": 34111005,
+  "fileCount": 358,
+  "source": "Solo dist/, sin carpeta contenedora. Sin despliegue."
+}

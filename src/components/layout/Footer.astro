@@ -1,0 +1,26 @@
+---
+import Brand from '../ui/Brand.astro';
+import ContactButton from '../ui/ContactButton.astro';
+import Icon from '../ui/Icon.astro';
+import { site, currentYear, whatsappUrl } from '../../data/site';
+---
+<footer id="lapazcontenidos2" class="site-footer">
+  <div class="shell">
+    <div class="footer-invitation">
+      <div><p class="eyebrow">TE ESPERAMOS EN LA PAZ</p><h2>Tu próxima pausa,<br /><em>conversemos.</em></h2></div>
+      <div class="footer-contact"><ContactButton variant="light" label="Hablemos por WhatsApp" /><a class="footer-email" href={`mailto:${site.email}`}>{site.email}<Icon name="arrow" size={18} /></a><a class="footer-phone" href={`tel:${site.phoneInternational}`}>{site.phoneDisplay}</a><p>Consultas de disponibilidad por WhatsApp o correo.</p></div>
+    </div>
+    <div class="footer-bottom"><Brand /><p>La Paz · Entre Ríos · Argentina</p><a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a><a href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a></div>
+    <nav class="footer-policies" aria-label="Condiciones de alojamiento"><a href="#normaslink">Normas de convivencia</a><a href="#linkmascotas">Reglamento de mascotas</a><a href="#ubicacion">Ubicación</a></nav>
+    <p class="copyright">© <span data-current-year>{currentYear()}</span> Acacias Apart</p>
+  </div>
+</footer>
+<a class="whatsapp-float" href={whatsappUrl()} target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp (se abre en otra pestaña)"><Icon name="whatsapp" size={27} /></a>
+<script>
+  const updateYear = () => document.querySelectorAll('[data-current-year]').forEach(element => {
+    element.textContent = new Intl.DateTimeFormat('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', year: 'numeric' }).format(new Date());
+  });
+  updateYear();
+  addEventListener('pageshow', updateYear);
+  document.addEventListener('visibilitychange', updateYear);
+</script>

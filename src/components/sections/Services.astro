@@ -1,0 +1,11 @@
+---
+import Icon from '../ui/Icon.astro';
+import { generalServices } from '../../data/site';
+const icons = ['wind', 'pet', 'pool', 'leaf', 'bed', 'camera', 'wifi', 'baby', 'car'] as const;
+---
+<section id="servicios" class="services-section" aria-labelledby="services-title">
+  <div class="shell services-inner">
+    <div><p class="eyebrow">PARA TU ESTADÍA</p><h2 id="services-title">Comodidad en<br />cada <em>detalle.</em></h2></div>
+    <ul class="services-list">{generalServices.map((service, index) => <li><Icon name={icons[index]!} size={24} /><span>{service}</span></li>)}</ul>
+  </div>
+</section>

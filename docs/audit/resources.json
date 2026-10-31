@@ -1,0 +1,549 @@
+{
+  "capturedOn": "2026-10-31",
+  "source": "https://www.acaciasapart.com.ar/",
+  "assets": [
+    {
+      "url": "https://www.acaciasapart.com.ar/css/responsive.css",
+      "kind": "stylesheet",
+      "file": "docs/source/original-assets/b9577e2a15039fa4.css",
+      "bytes": 24363,
+      "sha256": "4fe0cd117f88a029b97993b8d6edd859cf65716fe18e3ffdd0186ffa1d20d3a7"
+    },
+    {
+      "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+      "kind": "stylesheet",
+      "file": "docs/source/original-assets/55b234b50b9b7064.css",
+      "bytes": 160302,
+      "sha256": "5b0fbe5b7ad705f6a937c4998ad02f73d8f0d976fe231b74aef0ec996990c93a"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/bootstrap-4.5.2-dist/css/bootstrap.min.css",
+      "kind": "stylesheet",
+      "file": "docs/source/original-assets/7557395011292410.css",
+      "bytes": 160302,
+      "sha256": "5b0fbe5b7ad705f6a937c4998ad02f73d8f0d976fe231b74aef0ec996990c93a"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/safetravel.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/176fe7f7260bda70.png",
+      "bytes": 87909,
+      "sha256": "0557bee36bba9a244b4ec407a244907525f5be8d1ffdce9004b159a95c9c99f1",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/banner.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/004f842c06f6c9cd.png",
+      "bytes": 38299,
+      "sha256": "6866893243cf9e0757fdbbd11fb3dcadd197df11e4ce618ca5f7a14b7f40011e",
+      "width": 1914,
+      "height": 207
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/ig.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/83f656b86a7b4a91.png",
+      "bytes": 10258,
+      "sha256": "a04e7e86d9c3052fb944cd68b1b2de04a4ef4259ef9547c96966567aeb26115d",
+      "width": 176,
+      "height": 176
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/face.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/78e53330dd6ae802.png",
+      "bytes": 8787,
+      "sha256": "fe4264486d31657eb28e288d8ee87f8cb8909c48496ce25c594b326b7820eac8",
+      "width": 176,
+      "height": 176
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/mail.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/e276e775b4b2851b.png",
+      "bytes": 11925,
+      "sha256": "ff0032799f94a2a306b068e1d12539eda2ce11fc20e0fd7e57d44645ab101ee1",
+      "width": 176,
+      "height": 176
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/home.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/6fd3b7c79b124178.png",
+      "bytes": 453075,
+      "sha256": "1dc3a663c97a78a9f2147f8661674f699a892443f31583a2348494f6a9c45c24",
+      "width": 648,
+      "height": 327,
+      "workingFile": "src/assets/photos/facade-original.png"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_170252.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/62c594b03c83ab6e.jpg",
+      "bytes": 240713,
+      "sha256": "4eabd1b08d1bfbdee6e650813101ecb6aee4d2fa156202cbb317074c37ad97da",
+      "width": 1080,
+      "height": 1080,
+      "workingFile": "src/assets/photos/three-room-20210816_170252.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/check.png.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/4c66c47e6cd97c07.png",
+      "bytes": 56758,
+      "sha256": "73aa45fe688feb13febc30fdedcfc5d451ea628d9f33609052f6c7ac202570ff",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_165107.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/3114f1e78b00114a.jpg",
+      "bytes": 1426941,
+      "sha256": "59aeafed5414553fa88134cd22c13268da90fa6eab4069d18e7b1cf58fb1ef7d",
+      "width": 2992,
+      "height": 2992,
+      "workingFile": "src/assets/photos/three-room-20210816_165107.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210817_094152.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/b90b9c0e23f22a76.jpg",
+      "bytes": 1839158,
+      "sha256": "cd43eb592a9fe9be45e8e6668ca82855a93f195f08b6f3968318b25b695cd15d",
+      "width": 2992,
+      "height": 2992,
+      "workingFile": "src/assets/photos/three-room-20210817_094152.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_170332.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/edd6a1725e8aced3.jpg",
+      "bytes": 1851946,
+      "sha256": "db757c6a848b868dd6b94a1c811940efab012d1193af5de9e1a4b02efd841d23",
+      "width": 2992,
+      "height": 2992,
+      "workingFile": "src/assets/photos/three-room-20210816_170332.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_165421.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/8c3f3e6d6f971151.jpg",
+      "bytes": 2425743,
+      "sha256": "881b76677248ba3b8340c0f9fd7b1f7f377a37f8d647633fead5c0610bb81710",
+      "width": 2992,
+      "height": 2992,
+      "workingFile": "src/assets/photos/three-room-20210816_165421.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/1.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/a8a535c86af6e9a3.jpg",
+      "bytes": 1221180,
+      "sha256": "8f428fe55806706b98d352369e4a89f8e3e5c626738a9c28eb4d69e515203c79",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-01.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/3.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/4d6bb303a7088796.jpg",
+      "bytes": 2002415,
+      "sha256": "aa8e57ea8c871429fb9f08c80080da62c8b92a7891b82a2091d0bda87ebda9c5",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-03.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/4.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/6485e43d6627dd67.jpg",
+      "bytes": 1161580,
+      "sha256": "49f03aeeecb478ee16c9af910934c62c656eb26106dd000869ac38665106f963",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-04.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/3.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/e75059d184a7836b.jpg",
+      "bytes": 1362137,
+      "sha256": "b77c42159b58ed3cc79ef8504906c14e315312ac805b1b5a856d1122233aff29",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/studio-03.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/5.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/2f58b1a38a98b787.jpg",
+      "bytes": 1690006,
+      "sha256": "ce25b41375736e6092e877a51d28096c3be654603f206dabb61541461b745ed4",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-05.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/2.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/a4d901f75c755ef4.jpg",
+      "bytes": 2191799,
+      "sha256": "16ce9d7c5f73c1f5426f168b7ace0fee86f04210b02d29ffe7fffb5b807e9b52",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-02.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/5.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/077a28a78c8078e3.jpg",
+      "bytes": 2527982,
+      "sha256": "2c1491bd25b416ae71b2fc0943f36771b7cec786336c28b70b6207476229aa7e",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/studio-05.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/7.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/10ab7d77673cee5d.jpg",
+      "bytes": 3216640,
+      "sha256": "228f78ed09c520903f6b4a2d2caa24088a56df9bbe6c61909ddc0126515e76d3",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/studio-07.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/2.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/1c89d7719fe1cd35.jpg",
+      "bytes": 3376128,
+      "sha256": "103d2db942654cbe7a09601f3c204f02309ffda800a2dd20eceb5ad996d27e55",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/studio-02.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/4.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/67bb5fcb7c86a262.jpg",
+      "bytes": 3917881,
+      "sha256": "d84ce3177c9b9156bac24a9f402c7a92089193e8135d62e1fb24235551276219",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/studio-04.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/2.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/07b21eac5cb77a85.jpg",
+      "bytes": 4783121,
+      "sha256": "237f280a41789013554bc591808d94e940456b78edf8f5368791a1f7b7f38685",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-02.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/6.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/7ef5f588f61f711e.jpg",
+      "bytes": 375793,
+      "sha256": "ef3e8c1e760adf3d8a2b1b98f8860ad4b4ff1a245c0b98de9e8e3e8bd7d5f5f7",
+      "width": 602,
+      "height": 1121,
+      "workingFile": "src/assets/photos/complex-06.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/1.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/2d842399c65028fd.jpg",
+      "bytes": 4570388,
+      "sha256": "b10c447016b0d2e5079921f651e1e844f4a6dc6b7ae27c44250425115b0885ae",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/complex-01.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/5.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/93ba73fe0972adae.jpg",
+      "bytes": 5319989,
+      "sha256": "7a0cf32460163c93395bbf54bdebbfd3969ffb511ecd0d1d5b1606bddf2239d6",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/complex-05.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/10.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/42f1cff4955d4711.jpg",
+      "bytes": 2272432,
+      "sha256": "102dbae3650af2ea407c057d457cef2028e2be3380193b112b04a0db80fb7acb",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-10.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/4.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/cead4b8d75d47d28.jpg",
+      "bytes": 2947297,
+      "sha256": "36622d6ad9f046e27875a7bf89761c6c2adc3ae6078441ba0cc371bec7e3687c",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-04.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/8.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/81d21868abe8998c.jpg",
+      "bytes": 3143141,
+      "sha256": "42e46610cd7cbde84eb9113f2f588ae9ea193b928eeab926b3be0ccba512e176",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-08.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/7.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/af2fd7998193448c.jpg",
+      "bytes": 3279792,
+      "sha256": "f67474d3d88939ded0aa9ce9818ab594c15891d551fb3e07ac27b11faf2a6512",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-07.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/12.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/d856648c50327348.jpg",
+      "bytes": 4421778,
+      "sha256": "ca634c83911e110d418fc976d99dc74cf460edadb5d5b66daa6ba033562e948d",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-12.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/13.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/4a605e43b4d51330.jpg",
+      "bytes": 5030717,
+      "sha256": "949881a4e5b80edbe04513517d5de5616ef99f5ee6a72b69defc6c9ee710d787",
+      "width": 4000,
+      "height": 3000,
+      "workingFile": "src/assets/photos/complex-13.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/6.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/0c42e9d21f0bcc72.jpg",
+      "bytes": 1782188,
+      "sha256": "68e1acdee65937b883057b026904ac9c941d8ec10f554cb7f838b80af3f1a2d4",
+      "width": 3000,
+      "height": 4000,
+      "workingFile": "src/assets/photos/two-room-06.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/6.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/071ca51e844d6350.jpg",
+      "bytes": 2603980,
+      "sha256": "3f74dc3072e9cc99a57253c1e4938b0fe52a092dfbe04ec2a17f1d741f3365ab",
+      "width": 4032,
+      "height": 3024,
+      "workingFile": "src/assets/photos/la-paz-06.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/8.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/6c6e0cbcad31f6bf.jpg",
+      "bytes": 1129167,
+      "sha256": "884d553eae5bc489296e6578f5cf370f9e3c7522a94dc3b4415d4bc70012f3c1",
+      "width": 4032,
+      "height": 3024,
+      "workingFile": "src/assets/photos/la-paz-08.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/9.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/83994c7a88703ba8.jpg",
+      "bytes": 1236857,
+      "sha256": "e725153c2bb9ec0b7de9fc27d3e278f958854272dc938e891cac728ac18c7170",
+      "width": 4032,
+      "height": 3024,
+      "workingFile": "src/assets/photos/la-paz-09.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/2.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/c1a545494a5f52c6.jpg",
+      "bytes": 1579411,
+      "sha256": "894051c17f6f3a61db3f36d5aec26d28274e5c64cdb67436287258d5fcd22a19",
+      "width": 4128,
+      "height": 3096,
+      "workingFile": "src/assets/photos/la-paz-02.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/3.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/14946aa39cd6cdbc.jpg",
+      "bytes": 2670873,
+      "sha256": "feb6974ed1359eefe40daf9b6569fb7768792b6d7693ffdb38037713ebaeea6b",
+      "width": 4128,
+      "height": 3096,
+      "workingFile": "src/assets/photos/la-paz-03.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/7.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/6c76993c4750f9fd.jpg",
+      "bytes": 1417150,
+      "sha256": "70f6735b7c215635640dcbc70092634b29415d28d02d496f3895cc63ead9b478",
+      "width": 4032,
+      "height": 3024,
+      "workingFile": "src/assets/photos/la-paz-07.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/1.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/658761ff417d9355.jpg",
+      "bytes": 1450166,
+      "sha256": "9b13e340c1c6b203b77ad08ba470bbfef414e45453b37eb4120fee66029c6593",
+      "width": 3096,
+      "height": 4128,
+      "workingFile": "src/assets/photos/la-paz-01.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/4.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/5dfd5bf9ffeacdf8.jpg",
+      "bytes": 3517721,
+      "sha256": "27ce3a9310fec790acbbb447c756a4534cf9221755b35549c0b43921af78788c",
+      "width": 3096,
+      "height": 4128,
+      "workingFile": "src/assets/photos/la-paz-04.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/5.jpg",
+      "kind": "image",
+      "file": "docs/source/original-assets/613ffadd3b6224d1.jpg",
+      "bytes": 4322441,
+      "sha256": "bb222c77b3b083c3c09890622cabd6deca818175d8277ceecf45cd8fa5368532",
+      "width": 4128,
+      "height": 2322,
+      "workingFile": "src/assets/photos/la-paz-05.jpg"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/Roboto-Light.ttf",
+      "kind": "font",
+      "file": "docs/source/original-assets/6494acbb37002f47.ttf",
+      "bytes": 162636,
+      "sha256": "94df4e4976db8ddaec27f8e8c33eef912e744fb200ca09051794b38e5a502fc0"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/unidades.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/498ec17a9ae87aba.png",
+      "bytes": 46726,
+      "sha256": "1878a67ce67053a3e3b5b3ee4a2a7c0c872689443611ecb848b5d1ba0b534583",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/departamento2.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/1130d00750e6a04a.png",
+      "bytes": 32716,
+      "sha256": "4218ce569cc00be61b027900671d32d7a9772dee49c156ee50b28fb363497fbe",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/monoambiente.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/e88e268881f13290.png",
+      "bytes": 44105,
+      "sha256": "1f92b7c8667861087c6ed091d26a6282083287ade7ccfc3da4ffcade2c082a99",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/normasdeconvivencia.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/f4be09e6f586c026.png",
+      "bytes": 39351,
+      "sha256": "3955ab44b8ec9cc2198a22d177d1bba02667ba4b5521e51811bdf07011748206",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/mascotas.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/fd4b7d66a391c1f2.png",
+      "bytes": 30331,
+      "sha256": "2be9c237c76077e0aa12fa967b39ed9dbc5d75814fc347dc05851e1a99e80207",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/lapaz.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/f4c8717187e8e0fb.png",
+      "bytes": 28604,
+      "sha256": "860b5f999afbcafe2c25918b1d61c67f177b4bee928f158e84767fa6b217d068",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/contacto.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/01fb44d1e99e0682.png",
+      "bytes": 27698,
+      "sha256": "e06891d6ae121bf4e149d4b2041471eebeb8d56fede1dfa61e66222242ab6194",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%201.pdf",
+      "kind": "pdf",
+      "file": "docs/source/original-assets/PLANO%20DEPARTAMENTO%201.pdf",
+      "bytes": 7740,
+      "sha256": "dc02f9e6f382790926fff4fcdb8344685a28e2216add635e5cbdd4f08b2f01d0"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%202.pdf",
+      "kind": "pdf",
+      "file": "docs/source/original-assets/PLANO%20DEPARTAMENTO%202.pdf",
+      "bytes": 7407,
+      "sha256": "5e22d1ea4afa035c61eabc8998e161cc0274ff0f20214a9919d0c07e742c76d4"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DORMI.pdf",
+      "kind": "pdf",
+      "file": "docs/source/original-assets/PLANO%20DORMI.pdf",
+      "bytes": 7043,
+      "sha256": "fe503f1d3a3e2352c2a17f87b3debb5ce1c943814649dd54da5b93be080c3ab8"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/WTTC%20SafeTravels%20Stamp%20Template_Partner_Company_TurismoEntreR%C3%ADos-01.png",
+      "kind": "image",
+      "file": "docs/source/original-assets/WTTC%20SafeTravels%20Stamp%20Template_Partner_Company_TurismoEntreR%C3%ADos-01.png",
+      "bytes": 196687,
+      "sha256": "a78344126f20b8a39cf8021e04bfa19448ed8fe8a68a8065fe4649473bd34773"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.acaciasapart.com.ar/favicon.ico",
+      "status": 404
+    }
+  ],
+  "sourceHtml": {
+    "file": "docs/source/original.html",
+    "sha256": "7a5db38b00b3f0fd3735f62e6a21ea9959d62e6544e331311a4778e2643d5c41"
+  }
+}

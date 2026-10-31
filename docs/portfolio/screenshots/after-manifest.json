@@ -1,0 +1,141 @@
+{
+  "phase": "after",
+  "records": [
+    {
+      "file": "after-desktop.png",
+      "requestedUrl": "http://127.0.0.1:4319/",
+      "finalUrl": "http://127.0.0.1:4319/",
+      "date": "2026-10-31T17:48:13.485Z",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "browser": "156.0.4314.50",
+      "channel": "msedge",
+      "playwrightVersion": "1.62.1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "viewportOnlyEmulation": true,
+      "locale": "es-AR",
+      "colorScheme": "light",
+      "reducedMotion": "no-preference",
+      "fullPage": false,
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 15276,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "sha256": "1bf11cefc2383beb52ead858a3b4157370cafd6a341e304eb5653af223a5617d",
+      "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+      "failedResources": [],
+      "pageErrors": []
+    },
+    {
+      "file": "after-desktop-fullpage.png",
+      "requestedUrl": "http://127.0.0.1:4319/",
+      "finalUrl": "http://127.0.0.1:4319/",
+      "date": "2026-10-31T17:48:15.592Z",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "browser": "156.0.4314.50",
+      "channel": "msedge",
+      "playwrightVersion": "1.62.1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "viewportOnlyEmulation": true,
+      "locale": "es-AR",
+      "colorScheme": "light",
+      "reducedMotion": "no-preference",
+      "fullPage": true,
+      "imageDimensions": {
+        "width": 1440,
+        "height": 15276
+      },
+      "document": {
+        "width": 1440,
+        "height": 15276,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "sha256": "2cf75bb16fbabbaf13d3d9a2d891b1a221f2b72e62abb7034fae4d198848964b",
+      "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+      "failedResources": [],
+      "pageErrors": []
+    },
+    {
+      "file": "after-mobile.png",
+      "requestedUrl": "http://127.0.0.1:4319/",
+      "finalUrl": "http://127.0.0.1:4319/",
+      "date": "2026-10-31T17:48:15.980Z",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "browser": "156.0.4314.50",
+      "channel": "msedge",
+      "playwrightVersion": "1.62.1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1,
+      "viewportOnlyEmulation": true,
+      "locale": "es-AR",
+      "colorScheme": "light",
+      "reducedMotion": "no-preference",
+      "fullPage": false,
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 15541,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "sha256": "ac33b1e741f0811071a8a28a35c8c5235619065bd59f3a72075b1c37302123ce",
+      "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+      "failedResources": [],
+      "pageErrors": []
+    },
+    {
+      "file": "after-mobile-fullpage.png",
+      "requestedUrl": "http://127.0.0.1:4319/",
+      "finalUrl": "http://127.0.0.1:4319/",
+      "date": "2026-10-31T17:48:17.042Z",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "browser": "156.0.4314.50",
+      "channel": "msedge",
+      "playwrightVersion": "1.62.1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1,
+      "viewportOnlyEmulation": true,
+      "locale": "es-AR",
+      "colorScheme": "light",
+      "reducedMotion": "no-preference",
+      "fullPage": true,
+      "imageDimensions": {
+        "width": 390,
+        "height": 15541
+      },
+      "document": {
+        "width": 390,
+        "height": 15541,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "sha256": "e5f1f5d5dbbe9c8154902dae5031fcb341aa42a78be18f1c42d86523f8a156ac",
+      "conditions": "Contexto limpio; carga normal sin throttling; inicio de página; ninguna alteración visual; carga de fuentes e imágenes eager esperada hasta 15 s.",
+      "failedResources": [],
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import Hero from '../components/sections/Hero.astro';
+import Introduction from '../components/sections/Introduction.astro';
+import Accommodations from '../components/sections/Accommodations.astro';
+import Gallery from '../components/sections/Gallery.astro';
+import Services from '../components/sections/Services.astro';
+import Destination from '../components/sections/Destination.astro';
+import Policies from '../components/sections/Policies.astro';
+import Location from '../components/sections/Location.astro';
+---
+<SiteLayout>
+  <Header />
+  <main id="main" tabindex="-1">
+    <Hero />
+    <Introduction />
+    <Services />
+    <Accommodations />
+    <Gallery />
+    <Destination />
+    <Policies />
+    <Location />
+  </main>
+  <Footer />
+  <script>
+    import '../scripts/gallery';
+  </script>
+</SiteLayout>

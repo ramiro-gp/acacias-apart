@@ -1,0 +1,42 @@
+{
+  "name": "acacias-apart",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "build": "astro build",
+    "build:preview": "node scripts/build-preview.mjs",
+    "build:release": "node scripts/build-release.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "capture": "node scripts/capture.mjs",
+    "verify:preservation": "node scripts/verify-preservation.mjs",
+    "test:e2e": "node tests/e2e/site.mjs",
+    "test:lightbox": "node tests/e2e/lightbox-visual.mjs",
+    "test:lightbox:dev": "node scripts/with-local-site.mjs dev tests/e2e/lightbox-visual.mjs",
+    "audit:lighthouse": "node scripts/lighthouse.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "verify": "pnpm check && pnpm build && pnpm verify:preservation"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.4.4",
+    "photoswipe": "5.4.4",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@astrojs/sitemap": "3.7.4",
+    "@axe-core/playwright": "4.14.0",
+    "lighthouse": "13.6.0",
+    "playwright": "1.62.1",
+    "typescript": "6.0.3"
+  }
+}

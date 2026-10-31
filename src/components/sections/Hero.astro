@@ -1,0 +1,29 @@
+---
+import { Picture } from 'astro:assets';
+import pool from '../../assets/photos/complex-01.jpg';
+import garden from '../../assets/photos/complex-13.jpg';
+import ContactButton from '../ui/ContactButton.astro';
+import Icon from '../ui/Icon.astro';
+import Sprig from '../ui/Sprig.astro';
+---
+<section id="inicio" class="hero shell" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow location"><span class="location-dot"></span> LA PAZ, ENTRE RÍOS</p>
+    <h1 id="hero-title">Departamentos turísticos<br /><em>en La Paz, Entre Ríos</em></h1>
+    <p class="hero-description">Disfrutá de tu estadía en nuestros departamentos equipados, con piscina, parque y espacios para descansar. Conocé los alojamientos y consultanos por WhatsApp.</p>
+    <ContactButton />
+    <p class="hero-caption">Departamentos equipados. Tiempo para vos.</p>
+    <a class="scroll-cue" href="#complejo"><span class="circle-arrow"><Icon name="arrow-down" size={18} /></span> Conocé nuestro lugar</a>
+  </div>
+  <div class="hero-photography">
+    <div class="hero-main-photo">
+      <Picture src={pool} width={1000} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[360, 480, 600, 800, 1000]} sizes="(max-width: 699px) calc(100vw - 85px), (max-width: 1100px) 43vw, 510px" alt="Piscina cercada y parque arbolado de Acacias Apart" loading="eager" fetchpriority="high" quality={45} />
+    </div>
+    <figure class="hero-inset">
+      <Picture src={garden} width={520} formats={['webp']} fallbackFormat="jpg" widths={[320, 520]} sizes="(max-width: 699px) 42vw, 245px" alt="Jardín de Acacias Apart con árboles y luz de la tarde" loading="eager" quality={80} />
+      <figcaption>Un poco más cerca de la naturaleza.</figcaption>
+    </figure>
+    <div class="hero-seal" aria-hidden="true"><Sprig /><span>EL ARTE<br />DE DESCANSAR</span></div>
+    <span class="photo-index" aria-hidden="true">01 — NUESTRO LUGAR</span>
+  </div>
+</section>

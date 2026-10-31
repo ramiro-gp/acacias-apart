@@ -1,0 +1,343 @@
+{
+  "date": "2026-10-31T17:52:09.424Z",
+  "note": "Matriz de entrega. No se aplicaron redirecciones ni cambios al servidor. Evidencia original inmutable en urls.json/resources.json.",
+  "pages": [
+    {
+      "url": "https://www.acaciasapart.com.ar/",
+      "originalStatus": 200,
+      "action": "Portada conservada; normalización HTTPS/www propuesta al proveedor"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/index.html",
+      "originalStatus": 404,
+      "action": "Ver configuración de robots/sitemap y página principal en DEPLOYMENT.md"
+    },
+    {
+      "url": "http://www.acaciasapart.com.ar/",
+      "originalStatus": 200,
+      "action": "Portada conservada; normalización HTTPS/www propuesta al proveedor"
+    },
+    {
+      "url": "https://acaciasapart.com.ar/",
+      "originalStatus": 200,
+      "action": "Portada conservada; normalización HTTPS/www propuesta al proveedor"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/robots.txt",
+      "originalStatus": 404,
+      "action": "Ver configuración de robots/sitemap y página principal en DEPLOYMENT.md"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/sitemap.xml",
+      "originalStatus": 404,
+      "action": "Ver configuración de robots/sitemap y página principal en DEPLOYMENT.md"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%201.pdf",
+      "originalStatus": 200,
+      "action": "Conservada exactamente en dist/img/"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%202.pdf",
+      "originalStatus": 200,
+      "action": "Conservada exactamente en dist/img/"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DORMI.pdf",
+      "originalStatus": 200,
+      "action": "Conservada exactamente en dist/img/"
+    }
+  ],
+  "fragments": [
+    {
+      "id": "deptos",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    },
+    {
+      "id": "fotitos",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    },
+    {
+      "id": "normaslink",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    },
+    {
+      "id": "linkmascotas",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    },
+    {
+      "id": "linkpaz",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    },
+    {
+      "id": "lapazcontenidos2",
+      "action": "Conservado y verificado en los tres motores; sin redirección del servidor"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://www.acaciasapart.com.ar/css/responsive.css",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+      "action": "Dependencia externa retirada del render; no se controla esa URL."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/bootstrap-4.5.2-dist/css/bootstrap.min.css",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/safetravel.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/banner.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/ig.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/face.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/mail.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/home.png",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/facade-original.BbF-N33Q_ZiPDuv.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_170252.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/three-room-20210816_170252.DueiKXVk_ZExcg2.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/check.png.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_165107.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/three-room-20210816_165107.Dk2tXO9Z_vEeDg.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210817_094152.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/three-room-20210817_094152.DXcXwsj8_2c7ypE.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_170332.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/three-room-20210816_170332.CH6xxX5k_28vSYB.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto1/20210816_165421.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/three-room-20210816_165421.D8PJs3Nq_vOXET.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/1.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-01.UR2OnzJb_Z1x21dw.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/3.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-03.CuaKtfnd_Z1QtKHv.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/4.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-04.BgczavQp_ZYdj89.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/3.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/studio-03.DW3qLqL2_CI8bT.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/5.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-05.DECHHxfn_Z1wHMnT.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/2.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-02.CgEABgIr_Z1gkN25.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/5.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/studio-05.C2Xtyt6K_16yszj.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/7.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/studio-07.C0UyvnlS_Z2gXMLs.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/2.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/studio-02.BFuvYL9N_1oYUnE.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto3/4.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/studio-04.CIFSXDum_1gE7XN.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/2.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-02.CQWQ0hiq_Jtr95.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/6.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-06.DFV2-gK5_Iyrcd.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/1.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-01.CqHSOX-u_P38CY.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/5.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-05.De2vIa4w_Z1bzo8T.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/10.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-10.CB0YgKed_Z20szvm.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/4.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-04.COIZ795x_Z2wwqVk.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/8.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-08.CcRNpVFE_1uomKq.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/7.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-07.Dr8M1Qfm_25JlRw.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/12.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-12.aWDi3bic_Z1LyeTz.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/fotos/13.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/complex-13.Di_mU0C8_pbg26.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/depto2/6.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/two-room-06.Daujs3Wl_2anD22.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/6.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-06.4vbbh0Pg_mY1MH.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/8.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-08.C09TE0uX_ZPbF1B.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/9.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-09.DGPz85te_a8Uc3.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/2.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-02.DDMcMQ-j_Z14801D.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/3.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-03.DSGlPmLb_ZNMAM7.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/7.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-07.jvPTqVMa_7K9Pa.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/1.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-01.Cjcl0kOJ_1Ks5pI.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/4.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-04.CJgBLCxZ_BSCbH.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/lapaz/5.jpg",
+      "action": "Fotografía preservada; propuesta 301 hacia derivado local. Pendiente del proveedor.",
+      "target": "https://www.acaciasapart.com.ar/_astro/la-paz-05.CMujtuT6_1ci6S5.webp"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/Roboto-Light.ttf",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/unidades.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/departamento2.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/monoambiente.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/normasdeconvivencia.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/mascotas.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/lapaz.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/css/img/contacto.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%201.pdf",
+      "action": "PDF conservado exactamente"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DEPARTAMENTO%202.pdf",
+      "action": "PDF conservado exactamente"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/PLANO%20DORMI.pdf",
+      "action": "PDF conservado exactamente"
+    },
+    {
+      "url": "https://www.acaciasapart.com.ar/img/WTTC%20SafeTravels%20Stamp%20Template_Partner_Company_TurismoEntreR%C3%ADos-01.png",
+      "action": "Recurso histórico conservado en auditoría; no incluido en el nuevo bundle. Retirada de ruta pendiente al publicar."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+---
+import Brand from '../ui/Brand.astro';
+import ContactButton from '../ui/ContactButton.astro';
+---
+<header class="site-header">
+  <div class="shell header-inner">
+    <Brand />
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden><span>Menú</span><span class="menu-lines" aria-hidden="true"></span></button>
+    <nav id="main-navigation" aria-label="Navegación principal">
+      <a href="#complejo">El complejo</a>
+      <a href="#deptos">Alojamientos</a>
+      <a href="#fotitos">Galería</a>
+      <a href="#linkpaz">La Paz</a>
+      <a href="#lapazcontenidos2">Contacto</a>
+      <ContactButton label="Hablemos" variant="outline" class="header-contact" />
+    </nav>
+  </div>
+</header>

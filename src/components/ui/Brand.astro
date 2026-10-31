@@ -1,0 +1,9 @@
+---
+import Sprig from './Sprig.astro';
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+<a href="/#inicio" class:list={['brand', { 'brand-compact': compact }]} aria-label="Acacias Apart — inicio">
+  <Sprig class="brand-sprig" />
+  {!compact && <span class="brand-type">acacias <span class="brand-subtitle">APART</span></span>}
+</a>
