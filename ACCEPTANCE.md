@@ -63,6 +63,12 @@ Las seis corridas finales alcanzaron SEO 100 y rendimiento mediano 100 en móvil
 - artifacts/acacias-apart-static.zip contiene solo dist/. Manifiesto de rutas/hashes en artifacts/release-manifest.json y resumen en docs/qa/release-summary.json. Integridad de CRC y SHA-256 de cada archivo comprobada también con Python zipfile; tres PDF exactos y ausencia de docs/, capturas, fuentes de desarrollo y herramientas.
 - DEPLOYMENT.md adapta las instrucciones generales oficiales a Wiroos e incluye publicación/reversión, configuración que debe confirmar el proveedor y alta futura de Search Console sin DNS.
 
+## Checkout limpio y GitHub
+
+El commit inicial `5c5b8e3` se instaló desde un checkout limpio del repositorio con `pnpm install --frozen-lockfile --offline`: 377 paquetes del lockfile, cero descargas. `pnpm check`, `pnpm build:preview` y `pnpm verify:preservation` pasaron en ese checkout; el build volvió a generar 338 variantes de imagen, mantuvo el preview noindex y confirmó la preservación de los recursos disponibles. El archivo local de auditoría original valida 57 archivos y cuatro capturas ANTES, y permanece fuera del repositorio; por eso la comprobación de preservación del checkout limpio verifica las 36 fotos integradas y las cuatro capturas conservadas en el proyecto.
+
+El código y la documentación están publicados en [GitHub, rama main](https://github.com/ramiro-gp/acacias-apart), commit `5c5b8e3` («Complete Acacias Apart corrective release»). `dist/`, `node_modules/`, el paquete generado y archivos de entorno quedan excluidos del repositorio. El ZIP estático es un artefacto local de entrega y no se subió al sitio.
+
 ## Cobertura pendiente y límites
 
 No se ejecutaron lector de pantalla, dispositivos Android/iOS físicos ni zoom real de navegador al 200 %. El reflujo se comprobó a 320 px y las interacciones por teclado/táctil se automatizaron; no sustituyen esa cobertura manual. No se ejecutó validador remoto de Google/Schema.org.

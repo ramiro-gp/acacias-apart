@@ -4,6 +4,10 @@
 
 El usuario identificó Wiroos como proveedor el 31/10/2026. No conoce con certeza el método de subida y confirmó que no existe una propiedad de Search Console. No se accedió a la cuenta, no se subió ningún archivo y no se modificaron DNS ni configuración del servidor.
 
+## Repositorio de código
+
+El código fuente y la documentación están publicados en [github.com/ramiro-gp/acacias-apart](https://github.com/ramiro-gp/acacias-apart), rama `main`, commit `5c5b8e3` («Complete Acacias Apart corrective release»). El repositorio no incluye `dist/`, `node_modules/`, `artifacts/` ni la copia de auditoría original local. El paquete estático listo para la futura subida se genera localmente con `pnpm package:release`; todavía no se cargó a Wiroos.
+
 Wiroos documenta [Administrador de archivos de cPanel y public_html](https://clientes.wiroos.com/index.php?rp=%2Fknowledgebase%2F176%2FiComo-subir-archivos-utilizando-el-cPanel.html) y también [subida por FTP](https://clientes.wiroos.com/knowledgebase/98/Como_subo_mi_sitio_a_los_servidores_de_Wiroos.html). Consultado el 31/10/2026. Esto acredita opciones generales del proveedor, no el panel ni la raíz concreta de esta cuenta. Confirmarlos desde el panel o soporte antes de reemplazar nada.
 
 ## Vercel: preview temporal preparado, sin publicar

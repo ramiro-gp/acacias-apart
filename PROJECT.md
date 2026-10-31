@@ -15,8 +15,8 @@ El usuario autorizó implementar el plan el 31/10/2026 y aprobó expresamente la
 | H2 | Confirmado por el usuario: marca, paleta, tipografías y composiciones móvil/escritorio. |
 | H3 | Implementado: todas las secciones y datos confirmados. Capacidad del monoambiente y domicilio de calle pendientes de la propietaria; se omiten. |
 | H4 | Implementado: 36 fotos visibles, miniaturas en tiras horizontales, galerías editoriales completas y lightbox corregido. |
-| H5 | QA de navegador y Lighthouse repetidos sobre desarrollo y build estático. Resultados en ACCEPTANCE.md. |
-| H6 | Código y documentación preparados para GitHub/Vercel; captura final y verificación de build. El preview Vercel queda pendiente de acceso Pro/Enterprise; publicación Wiroos y Search Console siguen pendientes. |
+| H5 | Completado: Chromium, Firefox, WebKit, axe y PhotoSwipe verificados; seis corridas Lighthouse con SEO, accesibilidad, buenas prácticas y rendimiento 100. Evidencia en ACCEPTANCE.md. |
+| H6 | Paquete estático, capturas, documentación y checkout limpio verificados. Commit `5c5b8e3` en `main`, publicado en GitHub. El preview Vercel queda pendiente de acceso Pro/Enterprise; publicación Wiroos y Search Console siguen pendientes. |
 
 ## Fuentes de verdad
 
