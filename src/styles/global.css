@@ -68,3 +68,88 @@
 .pswp__button:focus-visible{outline:3px solid #e4c08b;outline-offset:-6px}
 html.lightbox-open,html.lightbox-open body{overflow:hidden;overscroll-behavior:none}
 @media(max-width:699px){.destination-photos>.photo-figure{margin-top:0!important}}
+
+/* Dense, edge-to-edge masonry for the two editorial photo collections. */
+.editorial-gallery,.destination-photos{display:block;column-count:3;column-gap:24px;column-fill:balance}
+.editorial-gallery>.photo-figure,.destination-photos>.photo-figure{display:inline-block;vertical-align:top;width:100%;break-inside:avoid;page-break-inside:avoid;margin:0 0 24px}
+.editorial-gallery>.photo-figure:nth-child(n),.destination-photos>.photo-figure:nth-child(n){margin-top:0}
+.editorial-gallery .photo-link,.destination-photos .photo-link{border-radius:0}
+.editorial-gallery img,.destination-photos img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:0}
+.editorial-gallery figcaption{padding-top:9px}
+@media(max-width:959px){.editorial-gallery,.destination-photos{column-count:2}}
+@media(max-width:699px){.editorial-gallery,.destination-photos{column-count:1;column-gap:0}.editorial-gallery>.photo-figure,.destination-photos>.photo-figure{margin:0 0 16px}.destination-photos>.photo-figure:nth-child(4n+2),.destination-photos>.photo-figure:nth-child(4n+3),.destination-photos>.photo-figure:last-child{margin-top:0!important}}
+
+/* Keep browser and filmstrip scrollbars within the Acacias palette. */
+:root{scrollbar-color:var(--forest) var(--sage);scrollbar-width:thin;--header-height:92px}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--sage)}
+::-webkit-scrollbar-thumb{background:var(--forest);border:2px solid var(--sage);border-radius:8px}
+::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+.room-thumbnails{scrollbar-color:var(--forest) var(--sage)}
+
+/* The accommodation shortcuts share the header navigation's animated underline. */
+.room-navigation a{position:relative}
+.room-navigation a::after{position:absolute;bottom:7px;left:0;content:'';height:1px;width:100%;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .18s}
+.room-navigation a:hover::after,.room-navigation a:focus-visible::after{transform:scaleX(1)}
+
+@media(max-width:959px){:root{--header-height:76px}}
+@media(max-width:699px){:root{--header-height:68px}}
+.fragment-alias{display:block;height:0}
+.site-credit{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:16px;color:#e7e6dc;font-size:12px;line-height:1.6}
+.credit-heart{width:14px;height:14px;fill:#dc927c}
+.credit-link{position:relative;color:#e4d79e;font-weight:600}
+.credit-link::after{position:absolute;bottom:-2px;left:0;content:'';height:1px;width:100%;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .18s}
+.credit-link:hover::after,.credit-link:focus-visible::after{transform:scaleX(1)}
+
+/* A full-screen mobile menu reveals from the top and closes in the reverse direction. */
+.menu-heading{display:none}
+@media(max-width:959px){
+  .site-header{z-index:40}
+  .site-header .brand,.menu-toggle{position:relative;z-index:2}
+  .menu-toggle{justify-content:flex-end;min-width:80px}
+  .menu-lines{position:relative;width:23px;height:16px;border:0;transform:none!important}
+  .menu-lines::before,.menu-lines::after{position:absolute;left:0;right:0;top:4px;content:'';border-top:1px solid currentColor;transition:transform .2s,top .2s}
+  .menu-lines::after{top:11px}
+  .menu-toggle[aria-expanded=true] .menu-lines{transform:none!important}
+  .menu-toggle[aria-expanded=true] .menu-lines::before{top:8px;transform:rotate(45deg)}
+  .menu-toggle[aria-expanded=true] .menu-lines::after{top:8px;transform:rotate(-45deg)}
+  .nav-enhanced #main-navigation{
+    display:flex;position:fixed;inset:var(--header-height) 0 0;z-index:1;overflow-y:auto;overscroll-behavior:contain;
+    padding:22px 24px max(32px,env(safe-area-inset-bottom));
+    background:var(--cream);border:0;box-shadow:none;align-items:center;justify-content:center;flex-direction:column;gap:clamp(18px,3.5vh,30px);
+    clip-path:inset(0 0 100% 0);visibility:hidden;pointer-events:none;
+    transition:clip-path .44s cubic-bezier(.76,0,.24,1),visibility 0s linear .44s
+  }
+  .nav-enhanced #main-navigation.is-open{clip-path:inset(0);visibility:visible;pointer-events:auto;transition:clip-path .44s cubic-bezier(.76,0,.24,1),visibility 0s}
+  #main-navigation .menu-heading{display:block;margin:0 0 4px;color:var(--muted);font-size:11px;font-weight:650;letter-spacing:.2em;text-align:center;text-transform:uppercase}
+  #main-navigation>a:not(.button){font-family:Fraunces,Georgia,serif;font-size:clamp(32px,7.7vw,46px);letter-spacing:-.035em;line-height:1.1;padding:6px 4px;position:relative}
+  #main-navigation>a:not(.button)::after{bottom:0}
+  #main-navigation>a:not(.button):hover::after,#main-navigation>a:not(.button):focus-visible::after{transform:scaleX(1)}
+  #main-navigation .header-contact{align-self:center;width:min(100%,320px);min-height:56px;margin-top:8px;font-size:14px}
+  html.menu-open,html.menu-open body{overflow:hidden;overscroll-behavior:none}
+}
+
+.site-footer{--credit-color:#e4d79e}
+.credit-heart{fill:var(--credit-color)}
+.credit-link{color:var(--credit-color)}
+
+/* Keep WhatsApp above the map and PhotoSwipe, including its modal stacking layer. */
+body.map-active .whatsapp-float,html.lightbox-open .whatsapp-float{visibility:visible}
+html.lightbox-open .whatsapp-float{z-index:20}
+
+/* Align column bottoms while preserving natural photo proportions and DOM order. */
+.balanced-gallery{display:grid;grid-template-columns:var(--gallery-tracks);column-count:auto;gap:24px;align-items:start}
+.gallery-column{display:flex;flex-direction:column;gap:24px;min-width:0}
+.balanced-gallery .gallery-column>.photo-figure{display:block;width:100%;margin:0;min-width:0}
+@media(max-width:959px){
+  .balanced-gallery{display:block;column-count:2;column-gap:24px}
+  .gallery-column{display:contents}
+  .balanced-gallery .gallery-column>.photo-figure{display:inline-block;margin:0 0 24px}
+  .nav-enhanced body{padding-top:var(--header-height)}
+  .nav-enhanced .site-header{position:fixed;inset:0 0 auto;width:100%;height:var(--header-height);background:var(--cream)}
+  .nav-enhanced .site-header .header-inner{height:calc(var(--header-height) - 1px)}
+}
+@media(max-width:699px){
+  .balanced-gallery{column-count:1;column-gap:0}
+  .balanced-gallery .gallery-column>.photo-figure{margin-bottom:16px}
+}

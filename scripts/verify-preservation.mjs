@@ -6,6 +6,7 @@ import path from 'node:path';
 const resources = JSON.parse(await readFile('docs/audit/resources.json', 'utf8'));
 let archivedResourcesVerified = 0;
 let workingPhotosVerified = 0;
+let userProvidedPhotosVerified = 0;
 try {
   await access('docs/source/original-assets');
   for (const asset of resources.assets) {
@@ -21,6 +22,13 @@ try {
     assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.sha256, `Foto de trabajo modificada: ${asset.workingFile}`);
     workingPhotosVerified++;
   }
+}
+for (const asset of resources.userProvidedUpdates?.assets ?? []) {
+  for (const file of [asset.file, asset.workingFile]) {
+    const bytes = await readFile(file);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.sha256, `Foto aportada modificada: ${file}`);
+  }
+  userProvidedPhotosVerified++;
 }
 if (resources.sourceHtml) {
   const bytes = await readFile(resources.sourceHtml.file);
@@ -65,4 +73,4 @@ try {
 } catch (error) {
   if (error.code !== 'ENOENT') throw error;
 }
-console.log(`Preservación verificada: ${archivedResourcesVerified ? `${archivedResourcesVerified} originales archivados` : `${workingPhotosVerified} fotos de compilación`}, 4 capturas ANTES y exclusión del bundle.`);
+console.log(`Preservación verificada: ${archivedResourcesVerified ? `${archivedResourcesVerified} originales archivados` : `${workingPhotosVerified} fotos de compilación`}, ${userProvidedPhotosVerified} fotos nuevas archivadas y de trabajo, 4 capturas ANTES y exclusión del bundle.`);

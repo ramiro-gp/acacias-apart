@@ -30,11 +30,13 @@ El script opcional scripts/prepare-brand.py regenera exportaciones con FontTools
 
 - Hero con texto a la izquierda, piscina real a la derecha y pequeña fotografía del parque.
 - Módulo piloto del departamento de tres ambientes, con información visible, equipamiento desplegable y plano.
-- Galería de cuatro fotos con anchos variados, alturas naturales, orden de DOM estable y PhotoSwipe.
-- Header, menú móvil, botones de WhatsApp, contacto y pie como componentes base.
+- Galerías editoriales tipo masonry con columnas balanceadas automáticamente, alturas naturales, espacios regulares, esquinas cuadradas y PhotoSwipe.
+- Header, menú móvil, botones de WhatsApp, contacto y pie como componentes base. En móvil el menú ocupa todo el espacio bajo el header, mantiene marca y botón de cierre a la vista, usa enlaces grandes y cierra con la animación inversa. El pie incluye íconos de Instagram/Facebook y un crédito enlazado a ramita.dev con corazón del mismo color que el nombre.
 
-En móvil la composición fotográfica y la galería son de una columna. Las imágenes de galería mantienen sus proporciones y se amplían sin recortes. El hero permite encuadre editorial manteniendo la fotografía real.
+En escritorio las galerías editoriales se distribuyen en tres columnas; pasan a dos en tablet y una en móvil. Las imágenes mantienen sus proporciones y se amplían sin recortes. El hero permite encuadre editorial manteniendo la fotografía real. La barra de desplazamiento utiliza verde bosque y salvia. El header es algo más bajo (92 px escritorio, 76 px tablet y 68 px móvil), y los enlaces de tipología reutilizan el subrayado animado de la navegación.
 
 ## Aprobación y extensión
 
-El usuario aprobó logo, paleta, tipografías, hero, alojamiento y galería en móvil/escritorio. El sistema se extendió a servicios, las tres tipologías, La Paz, normas, ubicación y contacto. Las capturas proposal-* preservan la muestra aprobada; after-* documenta la entrega completa. Todas las fotografías de las unidades aparecen en una tira horizontal; las galerías editoriales muestran todas las imágenes sin reveladores. Solo el equipamiento detallado permanece en `<details>`.
+Actualización solicitada el 01/11/2026: las dos galerías usan tres columnas de ancho calculado a partir de las proporciones de las fotos para cerrar un rectángulo con bordes alineados, sin recortes. El perro queda en la tercera columna de La Paz y la palmera ocupa su lugar anterior. En tablet se usan dos columnas y en móvil una. El header móvil con navegación mejorada permanece fijo al borde superior, incluso al abrir el menú después de hacer scroll.
+
+El usuario aprobó logo, paleta, tipografías, hero, alojamiento y galería en móvil/escritorio. El sistema se extendió a servicios, las tres tipologías, La Paz, normas, ubicación y contacto. Las capturas proposal-* preservan la muestra aprobada; after-* documenta la entrega completa. Todas las fotografías de las unidades aparecen en una tira horizontal; las galerías editoriales muestran todas las imágenes sin reveladores. Las condiciones de convivencia se despliegan por defecto; las normas de mascotas y el equipamiento detallado permanecen en `<details>`. El mapa se muestra activo al cargar la página.

@@ -1,6 +1,6 @@
 # Acacias Apart
 
-Landing estática implementada en Astro, con diseño aprobado, tres tipologías, 36 fotografías y contacto por WhatsApp/correo. Sin publicación automática ni backend.
+Landing estática implementada en Astro, con diseño aprobado, tres tipologías, 41 fotografías y contacto por WhatsApp/correo. Sin publicación automática ni backend.
 
 ```sh
 pnpm install --frozen-lockfile

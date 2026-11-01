@@ -155,7 +155,8 @@
       "sha256": "aa8e57ea8c871429fb9f08c80080da62c8b92a7891b82a2091d0bda87ebda9c5",
       "width": 3000,
       "height": 4000,
-      "workingFile": "src/assets/photos/two-room-03.jpg"
+      "workingFileAtCapture": "src/assets/photos/two-room-03.jpg",
+      "supersededOn": "2026-11-01"
     },
     {
       "url": "https://www.acaciasapart.com.ar/img/depto2/4.jpg",
@@ -185,7 +186,8 @@
       "sha256": "ce25b41375736e6092e877a51d28096c3be654603f206dabb61541461b745ed4",
       "width": 3000,
       "height": 4000,
-      "workingFile": "src/assets/photos/two-room-05.jpg"
+      "workingFileAtCapture": "src/assets/photos/two-room-05.jpg",
+      "supersededOn": "2026-11-01"
     },
     {
       "url": "https://www.acaciasapart.com.ar/img/depto2/2.jpg",
@@ -195,7 +197,8 @@
       "sha256": "16ce9d7c5f73c1f5426f168b7ace0fee86f04210b02d29ffe7fffb5b807e9b52",
       "width": 3000,
       "height": 4000,
-      "workingFile": "src/assets/photos/two-room-02.jpg"
+      "workingFileAtCapture": "src/assets/photos/two-room-02.jpg",
+      "supersededOn": "2026-11-01"
     },
     {
       "url": "https://www.acaciasapart.com.ar/img/depto3/5.jpg",
@@ -542,6 +545,92 @@
       "status": 404
     }
   ],
+  "userProvidedUpdates": {
+    "receivedOn": "2026-11-01",
+    "source": "Imágenes descargadas desde Google Drive y entregadas por el usuario en img/; se archivaron sus originales antes de retirar esa carpeta.",
+    "assets": [
+      {
+        "sourceFile": "2 ambientes 01.jpg",
+        "category": "two-room",
+        "file": "docs/source/updates-2026-11-01/2e95794ac0e4de87.jpg",
+        "workingFile": "src/assets/photos/two-room-02.jpg",
+        "bytes": 6667883,
+        "sha256": "2e95794ac0e4de87dad67aaa971ef7b02522602a763a28fcbec8aaa44f389f4c",
+        "width": 4080,
+        "height": 1884
+      },
+      {
+        "sourceFile": "2 ambientes 02.jpg",
+        "category": "two-room",
+        "file": "docs/source/updates-2026-11-01/6d1479360e8b594e.jpg",
+        "workingFile": "src/assets/photos/two-room-03.jpg",
+        "bytes": 6655988,
+        "sha256": "6d1479360e8b594eaefe34c2d0231aa12b80f9b3604b3299041a0f2d34cb2e02",
+        "width": 4080,
+        "height": 1884
+      },
+      {
+        "sourceFile": "2 ambientes 03.jpg",
+        "category": "two-room",
+        "file": "docs/source/updates-2026-11-01/f9fbd3cd0b64cc02.jpg",
+        "workingFile": "src/assets/photos/two-room-05.jpg",
+        "bytes": 6551024,
+        "sha256": "f9fbd3cd0b64cc02c8974c9b06c62fe574b4c03a834837da26f8ddcf206bb4d3",
+        "width": 4080,
+        "height": 1884
+      },
+      {
+        "sourceFile": "acacias.jpg",
+        "category": "complex",
+        "file": "docs/source/updates-2026-11-01/0ca012ede718a423.jpg",
+        "workingFile": "src/assets/photos/complex-14.jpg",
+        "bytes": 2044866,
+        "sha256": "0ca012ede718a423627f8e1879358297937ff6d09f4109a57ed8505df9cc34c8",
+        "width": 2090,
+        "height": 2079
+      },
+      {
+        "sourceFile": "lapaz atardecer.jpg",
+        "category": "la-paz",
+        "file": "docs/source/updates-2026-11-01/b72bcc6180a63ee9.jpg",
+        "workingFile": "src/assets/photos/la-paz-10.jpg",
+        "bytes": 1517508,
+        "sha256": "b72bcc6180a63ee9d8dec9e72117ba3843d1883b4cfabace666cab97d2bb8ac2",
+        "width": 4624,
+        "height": 2084
+      },
+      {
+        "sourceFile": "lapaz.jpg",
+        "category": "la-paz",
+        "file": "docs/source/updates-2026-11-01/344c57385557ede2.jpg",
+        "workingFile": "src/assets/photos/la-paz-11.jpg",
+        "bytes": 1820749,
+        "sha256": "344c57385557ede214dba5052ff8a919f54323ea4cc43a273d2ce577e1c22187",
+        "width": 4624,
+        "height": 2084
+      },
+      {
+        "sourceFile": "lapaz2.jpg",
+        "category": "la-paz",
+        "file": "docs/source/updates-2026-11-01/0dd8c14f42132e65.jpg",
+        "workingFile": "src/assets/photos/complex-15.jpg",
+        "bytes": 2947735,
+        "sha256": "0dd8c14f42132e65787c92e6be2070f83b8428af9ad3b68035ed359798b94f30",
+        "width": 4624,
+        "height": 2084
+      },
+      {
+        "sourceFile": "piletanoche.jpg",
+        "category": "complex",
+        "file": "docs/source/updates-2026-11-01/2db99492e93c33c8.jpg",
+        "workingFile": "src/assets/photos/complex-16.jpg",
+        "bytes": 2228116,
+        "sha256": "2db99492e93c33c880b839e8a02c005634fe43267f65cb789e99e9a98d12b850",
+        "width": 4000,
+        "height": 1800
+      }
+    ]
+  },
   "sourceHtml": {
     "file": "docs/source/original.html",
     "sha256": "7a5db38b00b3f0fd3735f62e6a21ea9959d62e6544e331311a4778e2643d5c41"

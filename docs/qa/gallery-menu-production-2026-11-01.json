@@ -1,0 +1,217 @@
+{
+  "url": "http://127.0.0.1:4319/",
+  "environment": "production",
+  "browser": "151.0.7922.34",
+  "date": "2026-11-01T22:02:06.956Z",
+  "galleries": [
+    {
+      "width": 960,
+      "selector": ".editorial-gallery",
+      "geometry": [
+        {
+          "x": 40,
+          "width": 269.515625,
+          "bottom": 5750.84375,
+          "top": 4316.328125
+        },
+        {
+          "x": 333.515625,
+          "width": 290.1875,
+          "bottom": 5750.875,
+          "top": 4316.328125
+        },
+        {
+          "x": 647.703125,
+          "width": 272.28125,
+          "bottom": 5750.828125,
+          "top": 4316.328125
+        }
+      ]
+    },
+    {
+      "width": 960,
+      "selector": ".destination-photos",
+      "geometry": [
+        {
+          "x": 40,
+          "width": 237.875,
+          "bottom": 7174.4375,
+          "top": 6110.625
+        },
+        {
+          "x": 301.875,
+          "width": 292.078125,
+          "bottom": 7174.4375,
+          "top": 6110.625
+        },
+        {
+          "x": 617.953125,
+          "width": 302.015625,
+          "bottom": 7174.421875,
+          "top": 6110.625
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": ".editorial-gallery",
+      "geometry": [
+        {
+          "x": 80,
+          "width": 398.328125,
+          "bottom": 6723.96875,
+          "top": 4638.234375
+        },
+        {
+          "x": 502.328125,
+          "width": 428.890625,
+          "bottom": 6724.03125,
+          "top": 4638.234375
+        },
+        {
+          "x": 955.21875,
+          "width": 404.765625,
+          "bottom": 6724.046875,
+          "top": 4638.234375
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": ".destination-photos",
+      "geometry": [
+        {
+          "x": 80,
+          "width": 352.25,
+          "bottom": 8667.015625,
+          "top": 7126.328125
+        },
+        {
+          "x": 456.25,
+          "width": 432.5,
+          "bottom": 8667.015625,
+          "top": 7126.328125
+        },
+        {
+          "x": 912.75,
+          "width": 447.234375,
+          "bottom": 8667.046875,
+          "top": 7126.328125
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "selector": ".editorial-gallery",
+      "geometry": [
+        {
+          "x": 320,
+          "width": 398.328125,
+          "bottom": 6769.046875,
+          "top": 4683.3125
+        },
+        {
+          "x": 742.328125,
+          "width": 428.890625,
+          "bottom": 6769.109375,
+          "top": 4683.3125
+        },
+        {
+          "x": 1195.21875,
+          "width": 404.765625,
+          "bottom": 6769.125,
+          "top": 4683.3125
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "selector": ".destination-photos",
+      "geometry": [
+        {
+          "x": 320,
+          "width": 352.25,
+          "bottom": 8712.09375,
+          "top": 7171.40625
+        },
+        {
+          "x": 696.25,
+          "width": 432.5,
+          "bottom": 8712.09375,
+          "top": 7171.40625
+        },
+        {
+          "x": 1152.75,
+          "width": 447.234375,
+          "bottom": 8712.125,
+          "top": 7171.40625
+        }
+      ]
+    }
+  ],
+  "menus": [
+    {
+      "offset": 0,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 68
+      },
+      "nav": {
+        "x": 0,
+        "y": 68,
+        "width": 390,
+        "height": 776
+      }
+    },
+    {
+      "offset": 650,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 68
+      },
+      "nav": {
+        "x": 0,
+        "y": 68,
+        "width": 390,
+        "height": 776
+      }
+    },
+    {
+      "offset": 1600,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 68
+      },
+      "nav": {
+        "x": 0,
+        "y": 68,
+        "width": 390,
+        "height": 776
+      }
+    }
+  ],
+  "axe": [
+    {
+      "state": "desktop",
+      "violations": []
+    },
+    {
+      "state": "mobile-menu",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "hero": {
+    "source": "http://127.0.0.1:4319/_astro/complex-01.CqHSOX-u_Z21h9bj.avif",
+    "width": 509,
+    "durationMs": 8.100000023841858,
+    "bytes": 71953
+  },
+  "passed": true
+}

@@ -2,7 +2,7 @@
 
 ## Implementado y confirmado
 
-El build de entrega usa lang es-AR, un H1 «Departamentos turísticos en La Paz, Entre Ríos», title «Departamentos turísticos en La Paz, Entre Ríos | Acacias Apart» y description factual: «Disfrutá de tu estadía en nuestros departamentos equipados, con piscina, parque y espacios para descansar. Conocé los alojamientos y consultanos por WhatsApp.» Canonical: https://www.acaciasapart.com.ar/. Open Graph comparte el título, la descripción y una fotografía real de 1200×630; hay tarjeta social, favicon SVG y recursos locales. Las fotos tienen alt, dimensiones y variantes responsive. La 404 conserva noindex y queda fuera del sitemap.
+El build de entrega usa lang es-AR, un H1 «Complejo vacacional en La Paz, Entre Ríos», title «Departamentos turísticos en La Paz, Entre Ríos | Acacias Apart» y description factual: «Disfrutá de tu estadía en nuestros departamentos equipados, con piscina, parque y espacios para descansar. Conocé los alojamientos y consultanos por WhatsApp.» Canonical: https://www.acaciasapart.com.ar/. Open Graph comparte el título, la descripción y una fotografía real de 1200×630; hay tarjeta social, favicon SVG y recursos locales. Las fotos tienen alt, dimensiones y variantes responsive. La 404 conserva noindex y queda fuera del sitemap.
 
 El HTML publicado capturado en H0 tenía título vacío, `lang="en"`, diez H1 debido a bloques duplicados y no incluía description, canonical, Open Graph ni JSON-LD. La nueva landing usa un solo H1 local, título descriptivo, idioma `es-AR` y metadatos coherentes en HTML, Open Graph y LodgingBusiness. El hero y la introducción están transcritos en CONTENT.md.
 

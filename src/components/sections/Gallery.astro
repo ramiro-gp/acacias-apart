@@ -1,13 +1,10 @@
 ---
-import { photo, complexPhotoIds } from '../../data/photos';
-import PhotoLink from '../ui/PhotoLink.astro';
-const captions = ['01 / Afuera, el verde.', '02 / Una tarde de piscina.', '03 / Un lugar al que llegar.', '04 / El ritmo de la naturaleza.'];
-const classes = ['gallery-photo-wide', 'gallery-photo-offset', 'gallery-photo-narrow', 'gallery-photo-last'];
+import { complexPhotoColumns } from '../../data/photos';
+import EditorialGallery from '../ui/EditorialGallery.astro';
 ---
 <section id="fotitos" class="gallery-section shell" aria-labelledby="gallery-title">
   <div class="section-heading"><div><p class="eyebrow">MIRÁ UN POCO MÁS</p><h2 id="gallery-title">Los detalles de una<br />buena <em>pausa.</em></h2></div><p>El parque, la luz, los rincones.<br />Así se vive Acacias.</p></div>
   <div data-gallery="complex">
-    <div class="editorial-gallery">{complexPhotoIds.map((id, index) => { const item = photo(id); return <PhotoLink class={classes[index % classes.length]!} src={item.image} alt={item.alt} photoId={id} caption={captions[index] ?? ''} sizes="(max-width: 699px) calc(100vw - 48px), (max-width: 1200px) 50vw, 55vw" />; })}</div>
+    <EditorialGallery columns={complexPhotoColumns} class="editorial-gallery" />
   </div>
-  <p class="gallery-footnote">Cada imagen, un rincón real de nuestro complejo.</p>
 </section>

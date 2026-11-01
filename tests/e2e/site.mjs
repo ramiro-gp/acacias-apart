@@ -25,7 +25,7 @@ try {
   assert.equal(await page.locator('[data-current-year]').innerText(), new Intl.DateTimeFormat('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', year: 'numeric' }).format(new Date()));
   assert.equal(await page.getByText(/Covid-19|Safe Travels/i).count(), 0);
   const ids = await page.locator('[data-photo-id]').evaluateAll(elements => [...new Set(elements.map(element => element.getAttribute('data-photo-id')))]);
-  assert.equal(ids.length, 36);
+  assert.equal(ids.length, 41);
   for (const width of [320, 390, 768, 1024, 1440, 1920]) {
     await page.setViewportSize({ width, height: width < 700 ? 844 : 900 });
     const dimensions = await page.evaluate(() => ({ viewport: innerWidth, document: document.documentElement.scrollWidth }));
@@ -39,7 +39,7 @@ try {
     assert(dimensions.document <= dimensions.viewport, `Desborde a ${width}: ${JSON.stringify(dimensions)}`);
     report.viewports.push({ width, ...dimensions, horizontalOverflow: false });
   }
-  report.scenarios.push('Tres tipologías, 36 fotos distintas, capacidad desconocida omitida, año actual, sin avisos retirados; seis anchos sin desborde.');
+  report.scenarios.push('Tres tipologías, 41 fotos distintas, capacidad desconocida omitida, año actual, sin avisos retirados; seis anchos sin desborde.');
   await page.setViewportSize({ width: 390, height: 844 });
   const menu = page.getByRole('button', { name: 'Menú', exact: true });
   await menu.focus(); await page.keyboard.press('Enter');

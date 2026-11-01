@@ -12,6 +12,9 @@ const descriptions: Record<string, string> = {
   'complex-10': 'Toallas blancas sobre una cama junto a la ventana',
   'complex-12': 'Hojas iluminadas por el sol con el parque y la piscina de fondo',
   'complex-13': 'Sendero del parque bajo una pérgola cubierta de vegetación',
+  'complex-14': 'Fachada de Acacias Apart entre árboles y flores rosadas',
+  'complex-15': 'Palmera en silueta frente al agua y al cielo del atardecer en La Paz',
+  'complex-16': 'Piscina cercada y parque arbolado durante la noche',
   'facade-original': 'Vista del frente de Acacias Apart y su jardín',
   'la-paz-01': 'Árbol y farola junto al agua durante el atardecer',
   'la-paz-02': 'Sol sobre el agua detrás de la silueta de un árbol',
@@ -22,6 +25,8 @@ const descriptions: Record<string, string> = {
   'la-paz-07': 'Playa de arena y estructuras de sombra junto al agua',
   'la-paz-08': 'Costa de arena con estructuras de madera y cielo azul',
   'la-paz-09': 'Embarcación en la orilla bajo un cielo nublado',
+  'la-paz-10': 'Cielo de atardecer junto al agua',
+  'la-paz-11': 'Perro junto al agua con el sol del atardecer al fondo',
   'studio-02': 'Mesa de comedor junto a los ventanales del monoambiente',
   'studio-03': 'Cama matrimonial y paredes de ladrillo en el monoambiente',
   'studio-04': 'Cama, ventana y sector de comedor del monoambiente',
@@ -33,10 +38,10 @@ const descriptions: Record<string, string> = {
   'three-room-20210816_170332': 'Vista desde la cocina hacia el comedor del departamento de tres ambientes',
   'three-room-20210817_094152': 'Dormitorio matrimonial de tres ambientes con iluminación cálida',
   'two-room-01': 'Dormitorio de dos ambientes con cama matrimonial e individual',
-  'two-room-02': 'Mesa de comedor con flores en el departamento de dos ambientes',
-  'two-room-03': 'Estar de dos ambientes con sofá y mesa de comedor',
+  'two-room-02': 'Estar del departamento de dos ambientes con sofá cama beige y televisor',
+  'two-room-03': 'Vista del estar y comedor del departamento de dos ambientes con sofá cama beige',
   'two-room-04': 'Baño de dos ambientes con ducha y revestimiento cerámico',
-  'two-room-05': 'Vista del estar, comedor y cocina del departamento de dos ambientes',
+  'two-room-05': 'Estar, comedor y cocina del departamento de dos ambientes con sofá cama beige',
   'two-room-06': 'Cocina de dos ambientes con horno, heladera y microondas',
 };
 
@@ -53,5 +58,15 @@ export function photo(id: string) {
   return result;
 }
 
-export const complexPhotoIds = ['complex-02', 'complex-01', 'complex-04', 'complex-12', 'complex-05', 'complex-06', 'complex-07', 'complex-08', 'complex-10', 'complex-13', 'facade-original'];
-export const destinationPhotoIds = ['la-paz-03', 'la-paz-06', 'la-paz-01', 'la-paz-02', 'la-paz-04', 'la-paz-05', 'la-paz-07', 'la-paz-08', 'la-paz-09'];
+export const complexPhotoColumns = [
+  ['complex-02', 'complex-01', 'complex-04', 'complex-16'],
+  ['complex-05', 'complex-06', 'complex-07', 'complex-12'],
+  ['complex-08', 'complex-10', 'complex-13', 'complex-14', 'facade-original'],
+];
+export const destinationPhotoColumns = [
+  ['la-paz-03', 'la-paz-06', 'la-paz-10', 'complex-15'],
+  ['la-paz-02', 'la-paz-04', 'la-paz-05', 'la-paz-07'],
+  ['la-paz-11', 'la-paz-01', 'la-paz-08', 'la-paz-09'],
+];
+export const complexPhotoIds = complexPhotoColumns.flat();
+export const destinationPhotoIds = destinationPhotoColumns.flat();

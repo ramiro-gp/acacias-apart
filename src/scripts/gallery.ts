@@ -37,12 +37,14 @@ document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery => {
     document.documentElement.classList.add('lightbox-open');
     document.body.classList.add('lightbox-open');
     // Keep only the dialog in the accessibility and tab order while open.
-    document.querySelectorAll<HTMLElement>('body > :not(.pswp)').forEach(element => {
+    document.querySelectorAll<HTMLElement>('body > :not(.pswp):not(.whatsapp-float)').forEach(element => {
       if (!element.inert) { element.inert = true; element.dataset.galleryInert = 'true'; }
     });
   });
   lightbox.on('afterInit', () => {
     const dialog = lightbox.pswp?.element;
+    const whatsapp = document.querySelector<HTMLAnchorElement>('.whatsapp-float');
+    if (dialog && whatsapp && whatsapp.parentElement !== dialog) dialog.append(whatsapp);
     dialog?.setAttribute('aria-label', 'Galería de fotografías de Acacias Apart');
     dialog?.setAttribute('aria-modal', 'true');
     dialog?.querySelector('.pswp__scroll-wrap')?.setAttribute('aria-roledescription', 'carrusel');
@@ -72,6 +74,8 @@ document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery => {
     controls[next]?.focus();
   });
   lightbox.on('destroy', () => {
+    const whatsapp = document.querySelector<HTMLAnchorElement>('.pswp .whatsapp-float');
+    if (whatsapp) document.body.append(whatsapp);
     document.documentElement.classList.remove('lightbox-open');
     document.body.classList.remove('lightbox-open');
     document.querySelectorAll<HTMLElement>('[data-gallery-inert]').forEach(element => {

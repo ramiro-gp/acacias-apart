@@ -1,0 +1,21 @@
+---
+import { photo } from '../../data/photos';
+import PhotoLink from './PhotoLink.astro';
+interface Props { columns: string[][]; class?: string; }
+const { columns, class: className } = Astro.props;
+const groups = columns.map(column => column.map(photo));
+// Solve column widths for one shared height, retaining every photo's natural ratio.
+const gap = 24;
+const ratios = groups.map(group => group.reduce((sum, item) => sum + item.image.height / item.image.width, 0));
+const inverseSum = ratios.reduce((sum, ratio) => sum + 1 / ratio, 0);
+const gapOffset = groups.reduce((sum, group, index) => sum + gap * (group.length - 1) / ratios[index]!, 0);
+const tracks = groups.map((group, index) => {
+  const ratio = ratios[index]!;
+  const percent = 100 / (inverseSum * ratio);
+  const offset = (gapOffset - gap * (groups.length - 1)) / (inverseSum * ratio) - gap * (group.length - 1) / ratio;
+  return `calc(${percent}% ${offset < 0 ? '-' : '+'} ${Math.abs(offset)}px)`;
+}).join(' ');
+---
+<div class:list={['balanced-gallery', className]} style={`--gallery-tracks:${tracks}`}>
+  {groups.map(group => <div class="gallery-column">{group.map(item => <PhotoLink src={item.image} alt={item.alt} photoId={item.id} naturalRatio sizes="(max-width: 699px) calc(100vw - 48px), (max-width: 959px) calc((100vw - 88px) / 2), 36vw" />)}</div>)}
+</div>

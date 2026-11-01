@@ -4,15 +4,16 @@ import ContactButton from '../ui/ContactButton.astro';
 import Icon from '../ui/Icon.astro';
 import { site, currentYear, whatsappUrl } from '../../data/site';
 ---
-<footer id="lapazcontenidos2" class="site-footer">
+<footer id="contacto" class="site-footer">
   <div class="shell">
-    <div class="footer-invitation">
+    <div id="lapazcontenidos2" class="footer-invitation">
       <div><p class="eyebrow">TE ESPERAMOS EN LA PAZ</p><h2>Tu próxima pausa,<br /><em>conversemos.</em></h2></div>
       <div class="footer-contact"><ContactButton variant="light" label="Hablemos por WhatsApp" /><a class="footer-email" href={`mailto:${site.email}`}>{site.email}<Icon name="arrow" size={18} /></a><a class="footer-phone" href={`tel:${site.phoneInternational}`}>{site.phoneDisplay}</a><p>Consultas de disponibilidad por WhatsApp o correo.</p></div>
     </div>
-    <div class="footer-bottom"><Brand /><p>La Paz · Entre Ríos · Argentina</p><a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a><a href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a></div>
+    <div class="footer-bottom"><Brand /><p>La Paz · Entre Ríos · Argentina</p><a href={site.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={17} /> Instagram<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a><a href={site.facebook} target="_blank" rel="noopener noreferrer"><Icon name="facebook" size={17} /> Facebook<span class="sr-only"> (se abre en otra pestaña)</span> ↗</a></div>
     <nav class="footer-policies" aria-label="Condiciones de alojamiento"><a href="#normaslink">Normas de convivencia</a><a href="#linkmascotas">Reglamento de mascotas</a><a href="#ubicacion">Ubicación</a></nav>
     <p class="copyright">© <span data-current-year>{currentYear()}</span> Acacias Apart</p>
+    <p class="site-credit">Hecho con <svg class="credit-heart" viewBox="0 0 24 24" role="img" aria-label="amor"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09A6 6 0 0 1 16.5 3C19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.51L12 21.35Z" /></svg> por <a class="credit-link" href="https://ramita.dev" target="_blank" rel="noopener noreferrer">Ramiro García<span class="sr-only"> (se abre en una nueva pestaña)</span></a></p>
   </div>
 </footer>
 <a class="whatsapp-float" href={whatsappUrl()} target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp (se abre en otra pestaña)"><Icon name="whatsapp" size={27} /></a>

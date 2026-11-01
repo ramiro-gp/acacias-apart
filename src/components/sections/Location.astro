@@ -4,31 +4,17 @@ import Icon from '../ui/Icon.astro';
 ---
 <section id="ubicacion" class="location-section shell" aria-labelledby="location-title">
   <div class="location-copy"><p class="eyebrow">DÓNDE ENCONTRARNOS</p><h2 id="location-title">Nos vemos<br />en <em>La Paz.</em></h2><p>Acacias Apart<br />La Paz, Entre Ríos, Argentina.</p><a class="text-link" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Cómo llegar en Google Maps <Icon name="arrow" size={18} /><span class="sr-only">(se abre en otra pestaña)</span></a></div>
-  <div class="map-frame" data-map-src={site.mapsEmbedUrl}>
-    <div class="map-placeholder"><Icon name="pin" size={34} /><p>Acacias Apart</p><span>La Paz · Entre Ríos</span><button class="button button-outline" data-load-map aria-controls="property-map">Ver mapa aquí <Icon name="arrow" size={16} /></button><p class="map-notice">Al abrir el mapa se carga contenido de Google Maps.</p></div>
-    <div id="property-map"></div>
+  <div class="map-frame">
+    <iframe src={site.mapsEmbedUrl} title="Ubicación de Acacias Apart en Google Maps" width="600" height="450" allowfullscreen loading="eager" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <noscript><p><a class="text-link" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Abrir ubicación en Google Maps ↗</a></p></noscript>
   </div>
 </section>
 <script>
-  const frame = document.querySelector<HTMLElement>('[data-map-src]');
-  const button = frame?.querySelector<HTMLButtonElement>('[data-load-map]');
-  button?.addEventListener('click', () => {
-    const src = frame?.dataset.mapSrc;
-    const target = document.getElementById('property-map');
-    if (!src || !target) return;
-    const iframe = document.createElement('iframe');
-    iframe.src = src;
-    iframe.title = 'Ubicación de Acacias Apart en Google Maps';
-    iframe.width = '600'; iframe.height = '450';
-    iframe.loading = 'lazy'; iframe.allowFullscreen = true;
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    target.replaceChildren(iframe);
-    frame?.querySelector('.map-placeholder')?.remove();
-    iframe.focus();
+  const map = document.querySelector<HTMLIFrameElement>('.map-frame iframe');
+  if (map) {
     const observer = new IntersectionObserver(entries => {
       document.body.classList.toggle('map-active', entries.some(entry => entry.isIntersecting));
     });
-    observer.observe(iframe);
-  }, { once: true });
+    observer.observe(map);
+  }
 </script>

@@ -8,6 +8,14 @@ El usuario identificó Wiroos como proveedor el 31/10/2026. No conoce con certez
 
 El código fuente y la documentación están publicados en [github.com/ramiro-gp/acacias-apart](https://github.com/ramiro-gp/acacias-apart), rama `main`, commit `5c5b8e3` («Complete Acacias Apart corrective release»). El repositorio no incluye `dist/`, `node_modules/`, `artifacts/` ni la copia de auditoría original local. El paquete estático listo para la futura subida se genera localmente con `pnpm package:release`; todavía no se cargó a Wiroos.
 
+El usuario autorizó commit y push de las actualizaciones posteriores el 01/11/2026. La versión actual incorpora las nuevas fotos, las galerías alineadas, el microtexto del hero y las correcciones de navegación móvil; el hash vigente se consulta en el historial de `main`.
+
+## Preview temporal por Cloudflare — 01/11/2026
+
+URL comprobada: https://agreed-neil-remarkable-pads.trycloudflare.com. Expone únicamente el build estático de `pnpm build:preview`, servido por Astro preview en `127.0.0.1:4322`. Cloudflared usa un Quick Tunnel con `--url http://127.0.0.1:4322 --http-host-header localhost --no-autoupdate`.
+
+La portada y el hero AVIF respondieron HTTP 200; HTML con `noindex,nofollow`, 41 fotos y `robots.txt` con `Disallow: /`. Los procesos se iniciaron en segundo plano; sus registros locales están en `artifacts/share-2026-11-01-1911/`, excluidos de Git. El enlace es temporal: requiere mantener el equipo encendido, conectado a Internet y ambos procesos activos; al recrear el Quick Tunnel cambia la URL. No es el despliegue definitivo y no cambia DNS ni Wiroos.
+
 Wiroos documenta [Administrador de archivos de cPanel y public_html](https://clientes.wiroos.com/index.php?rp=%2Fknowledgebase%2F176%2FiComo-subir-archivos-utilizando-el-cPanel.html) y también [subida por FTP](https://clientes.wiroos.com/knowledgebase/98/Como_subo_mi_sitio_a_los_servidores_de_Wiroos.html). Consultado el 31/10/2026. Esto acredita opciones generales del proveedor, no el panel ni la raíz concreta de esta cuenta. Confirmarlos desde el panel o soporte antes de reemplazar nada.
 
 ## Vercel: preview temporal preparado, sin publicar
@@ -50,7 +58,7 @@ Conservar las rutas anteriores según docs/audit/urls.json y la matriz final doc
 
 ## Verificación y reversión
 
-Comprobar desde una sesión limpia: dominio/HTTPS/redirecciones, portada móvil, menú, todas las secciones, las 36 fotos, ampliación, tres PDF, enlaces de contacto sin enviar mensajes, mapa voluntario, robots Allow, sitemap/canonical y una URL inexistente con HTTP 404. Revisar respuestas MIME y compresión. Repetir Lighthouse sobre la URL pública; las mediciones locales no representan al hosting.
+Comprobar desde una sesión limpia: dominio/HTTPS/redirecciones, portada móvil, menú, todas las secciones, las 41 fotos, ampliación, tres PDF, enlaces de contacto sin enviar mensajes, iframe de Google Maps activo, robots Allow, sitemap/canonical y una URL inexistente con HTTP 404. Revisar respuestas MIME y compresión. Repetir Lighthouse sobre la URL pública; las mediciones locales no representan al hosting.
 
 Si faltan recursos, se pierde navegación/contacto o aparecen errores que impidan la visita, restaurar los archivos y configuración del respaldo completo con el método del proveedor. No hay base de datos ni migración de datos.
 

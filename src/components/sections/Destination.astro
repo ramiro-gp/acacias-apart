@@ -1,8 +1,9 @@
 ---
-import { photo, destinationPhotoIds } from '../../data/photos';
-import PhotoLink from '../ui/PhotoLink.astro';
+import { destinationPhotoColumns } from '../../data/photos';
+import EditorialGallery from '../ui/EditorialGallery.astro';
 ---
-<section id="linkpaz" class="destination-section shell" aria-labelledby="destination-title">
+<section id="la-paz" class="destination-section shell" aria-labelledby="destination-title">
+  <span id="linkpaz" class="fragment-alias" aria-hidden="true"></span>
   <div class="section-heading"><div><p class="eyebrow">LA PAZ, ENTRE RÍOS</p><h2 id="destination-title">Hay lugares que<br />invitan a <em>quedarse.</em></h2></div><p>Atardeceres junto al agua.<br />Postales para tu próxima escapada.</p></div>
-  <div data-gallery="la-paz"><div class="destination-photos">{destinationPhotoIds.map(id => { const item = photo(id); return <PhotoLink src={item.image} alt={item.alt} photoId={id} sizes="(max-width: 699px) calc(100vw - 48px), 42vw" />; })}</div></div>
+  <div data-gallery="la-paz"><EditorialGallery columns={destinationPhotoColumns} class="destination-photos" /></div>
 </section>

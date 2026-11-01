@@ -6,6 +6,8 @@ Fuente: https://www.acaciasapart.com.ar/ — relevamiento del 31/10/2026. El HTM
 
 **Confirmado por el usuario el 31/10/2026:** WhatsApp +54 9 11 6142-6804; vigencia de superficies y capacidades publicadas, distribución, servicios, equipamiento, horarios, pagos, estacionamiento, reglas de mascotas, correo y redes. Registro: docs/approvals.json.
 
+**Actualización fotográfica confirmada por el usuario el 01/11/2026:** reemplazar las tres imágenes retiradas del estar del dos ambientes por las nuevas tomas del sofá actualizado; sumar tres fotos al complejo y dos a La Paz. Los originales aportados, sus nombres, dimensiones y SHA-256 están en `docs/audit/resources.json` bajo `userProvidedUpdates`; el archivo de trabajo está en `src/assets/photos/`.
+
 **Decisiones confirmadas:** dirección visual H2 aprobada; retirar aviso COVID y sello Safe Travels de la interfaz; conservar sus originales; mostrar siempre el año actual. El usuario proporcionó el iframe del establecimiento en Google Maps.
 
 **Pendiente y omitido de la web:** capacidad del monoambiente y domicilio de calle. No inferirlos. La localidad sí está confirmada. Wiroos está confirmado como proveedor; falta comprobar su panel y configuración. El usuario confirmó que no existe una propiedad de Search Console; su creación queda para la publicación futura.
@@ -18,7 +20,7 @@ Fuente: https://www.acaciasapart.com.ar/ — relevamiento del 31/10/2026. El HTM
 - Instagram: https://www.instagram.com/apartacacias.
 - Facebook: https://www.facebook.com/acaciasapartlapaz.
 - Domicilio: no figura en el texto del sitio.
-- Ubicación: iframe exacto proporcionado por el usuario. Identificador del establecimiento 0x4717c209d2a68023; enlace directo https://www.google.com/maps?cid=5122776448601849891. Las coordenadas de centrado no acreditan un domicilio postal. El iframe se carga únicamente al pulsar «Ver mapa aquí».
+- Ubicación: iframe exacto proporcionado por el usuario. Identificador del establecimiento 0x4717c209d2a68023; enlace directo https://www.google.com/maps?cid=5122776448601849891. Las coordenadas de centrado no acreditan un domicilio postal. El iframe se carga automáticamente al entrar en la página; no hay botón intermedio.
 
 ## Servicios generales
 
@@ -71,7 +73,7 @@ Superficie publicada: 40 m². Capacidad: 5 personas. Mascotas: permitidas según
 - Cuna a solicitud del cliente.
 
 Plano original: /img/PLANO%20DEPARTAMENTO%202.pdf.
-Fotografías: two-room-01, two-room-02, two-room-03, two-room-04, two-room-05, two-room-06.
+Fotografías: two-room-01, two-room-02, two-room-03, two-room-04, two-room-05, two-room-06. Las tomas two-room-02, two-room-03 y two-room-05 muestran el sofá actualizado (01/11/2026); se reemplazaron las imágenes retiradas del estar.
 
 ## Monoambiente
 
@@ -114,7 +116,7 @@ Texto introductorio publicado: «Para nosotros ellos también son parte de la fa
 
 ## La Paz
 
-Nueve fotografías, sin texto turístico original. No identificar atractivos ni agregar distancias, actividades o descripciones sin revisión y fuente verificable.
+Doce fotografías, sin texto turístico original. No identificar atractivos ni agregar distancias, actividades o descripciones sin revisión y fuente verificable.
 
 ## Contenido histórico conservado
 
@@ -127,21 +129,23 @@ El aviso COVID también se retira de la interfaz por indicación del usuario. El
 ### Textos SEO de la iteración correctiva
 
 - **Línea de base comprobada del sitio publicado:** title vacío, idioma `en`, diez H1 duplicados en el DOM y sin description, canonical, Open Graph ni JSON-LD en el HTML auditado (`docs/audit/AUDIT.md`). No se adjudicó un H1 único anterior al sitio porque había bloques duplicados.
-- H1: «Departamentos turísticos en La Paz, Entre Ríos».
+- H1 actual: «Complejo vacacional en La Paz, Entre Ríos».
 - Hero y meta description: «Disfrutá de tu estadía en nuestros departamentos equipados, con piscina, parque y espacios para descansar. Conocé los alojamientos y consultanos por WhatsApp.»
 - Título SEO y Open Graph: «Departamentos turísticos en La Paz, Entre Ríos | Acacias Apart».
 - Introducción: «Acacias Apart ofrece departamentos equipados en La Paz, Entre Ríos, con espacios verdes y piscina para disfrutar de tu estadía.»
 - Encabezados: «Departamento de tres ambientes», «Departamento de dos ambientes» y «Monoambiente equipado».
+- Navegación del header: La Paz enlaza a `#la-paz` y Contacto a `#contacto`; se mantienen `#linkpaz` y `#lapazcontenidos2` como alias por compatibilidad.
+- Crédito de desarrollo en el pie: «Hecho con [corazón] por Ramiro García», con enlace externo a `https://ramita.dev`.
 
-Estas frases describen datos publicados/confirmados, no añaden instalaciones, distancias ni afirmaciones sobre la ciudad. La sección La Paz conserva sus nueve fotografías y no incorpora atractivos o actividades sin fuente.
+Estas frases describen datos publicados/confirmados, no añaden instalaciones, distancias ni afirmaciones sobre la ciudad. La sección La Paz conserva sus doce fotografías y no incorpora atractivos o actividades sin fuente.
 
 ## Recursos y migración
 
-35 JPG y una portada PNG: 5 fotos de tres ambientes, 6 de dos ambientes (la sexta estaba solo en la galería general), 5 del monoambiente, 11 del complejo y 9 de La Paz. Las 36 fotos aparecen en el documento al cargar: todas las del alojamiento en una tira horizontal y las galerías en composición editorial; ninguna queda detrás de un botón «Ver más». Todas tienen texto alternativo revisado, dimensiones y derivados locales.
+41 fotografías: 5 de tres ambientes, 6 de dos ambientes (la sexta estaba solo en la galería general), 5 del monoambiente, 13 del complejo y 12 de La Paz. Las 41 aparecen en el documento al cargar: todas las del alojamiento en una tira horizontal y las galerías en composición editorial; ninguna queda detrás de un botón «Ver más». Todas tienen texto alternativo revisado, dimensiones y derivados locales. Las tres tomas antiguas del estar se conservan en el archivo histórico, fuera del sitio compilado.
 
 Los elementos repetidos de las galerías desktop/mobile del sitio antiguo no son fotos adicionales. No se descartaron fotografías distintas. Además se conservan gráficos, fondos, fuente, hojas CSS, sello ampliado y tres planos. Favicon original: 404.
 
-| URL original de imagen | Archivo de trabajo |
+| URL original de imagen | Archivo de trabajo en la integración inicial |
 |---|---|
 | https://www.acaciasapart.com.ar/img/home.png | src/assets/photos/facade-original.png |
 | https://www.acaciasapart.com.ar/img/depto1/20210816_170252.jpg | src/assets/photos/three-room-20210816_170252.jpg |
@@ -179,6 +183,23 @@ Los elementos repetidos de las galerías desktop/mobile del sitio antiguo no son
 | https://www.acaciasapart.com.ar/img/lapaz/1.jpg | src/assets/photos/la-paz-01.jpg |
 | https://www.acaciasapart.com.ar/img/lapaz/4.jpg | src/assets/photos/la-paz-04.jpg |
 | https://www.acaciasapart.com.ar/img/lapaz/5.jpg | src/assets/photos/la-paz-05.jpg |
+
+### Fotos aportadas el 01/11/2026
+
+| Archivo recibido | Archivo de trabajo | Uso |
+|---|---|---|
+| 2 ambientes 01.jpg | src/assets/photos/two-room-02.jpg | Reemplazo del estar actualizado |
+| 2 ambientes 02.jpg | src/assets/photos/two-room-03.jpg | Reemplazo del estar actualizado |
+| 2 ambientes 03.jpg | src/assets/photos/two-room-05.jpg | Reemplazo del estar actualizado y foto principal |
+| acacias.jpg | src/assets/photos/complex-14.jpg | Galería del complejo |
+| lapaz atardecer.jpg | src/assets/photos/la-paz-10.jpg | Galería de La Paz |
+| lapaz.jpg | src/assets/photos/la-paz-11.jpg | Galería de La Paz |
+| lapaz2.jpg | src/assets/photos/complex-15.jpg | Galería de La Paz: palmera al atardecer |
+| piletanoche.jpg | src/assets/photos/complex-16.jpg | Galería del complejo |
+
+Los originales quedaron preservados con hashes en `docs/source/updates-2026-11-01/`. La carpeta temporal `img/` se retiró después de verificar las copias.
+
+Corrección solicitada por el usuario el 01/11/2026: `complex-15` corresponde a la palmera junto al agua y pasa a La Paz; se conserva el nombre de archivo y su hash. `la-paz-11` muestra un perro junto al agua y pasa a la tercera columna de escritorio. El orden por columnas está tipado en `src/data/photos.ts`; ambas galerías alinean sus bordes superior e inferior ajustando el ancho de sus tres columnas sin recortar imágenes.
 
 ## Regla de cambios
 

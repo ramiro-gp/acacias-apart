@@ -5,7 +5,7 @@ import Icon from '../ui/Icon.astro';
 <section class="policies-section shell" aria-labelledby="policies-title">
   <div><p class="eyebrow">PARA DISFRUTAR JUNTOS</p><h2 id="policies-title">Una buena <em>estadía.</em></h2><p class="policies-intro">Conocé las condiciones del alojamiento y el reglamento para venir con tu mascota.</p></div>
   <div class="policies-list">
-    <details id="normaslink" class="policy-details"><summary>Condiciones y normas de convivencia <Icon name="plus" size={20} /></summary><ul>{commercialPolicies.map(policy => <li>{policy}</li>)}</ul></details>
+    <details id="normaslink" class="policy-details" open><summary>Condiciones y normas de convivencia <Icon name="plus" size={20} /></summary><ul>{commercialPolicies.map(policy => <li>{policy}</li>)}</ul></details>
     <details id="linkmascotas" class="policy-details"><summary>Mascotas: reglamento <Icon name="plus" size={20} /></summary><p>Para nosotros también son parte de la familia. Las mascotas están permitidas en el departamento de dos ambientes y en el monoambiente. Para cuidar el lugar y respetar a los demás huéspedes, te pedimos cumplir estas normas:</p><ol>{petPolicies.map(policy => <li>{policy}</li>)}</ol></details>
   </div>
 </section>
