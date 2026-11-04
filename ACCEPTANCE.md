@@ -112,3 +112,11 @@ La inspección del hero confirmó un AVIF seleccionado de 71.953 bytes en escrit
 El usuario autorizó commit y push al repositorio de DEPLOYMENT.md y solicitó un túnel Cloudflare. Se comprobó que `origin` apunta a `https://github.com/ramiro-gp/acacias-apart.git` y que `main` no tenía divergencia tras fetch. Se regeneró `pnpm build:preview` satisfactoriamente con noindex y robots bloqueado.
 
 El Quick Tunnel https://agreed-neil-remarkable-pads.trycloudflare.com sirve exclusivamente el preview estático del puerto local 4322. Comprobación pública: portada HTTP 200, 41 fotos, noindex, robots Disallow y hero HTTP 200 con MIME `image/avif`. Los procesos locales deben seguir activos para conservar el enlace. No se modificaron Wiroos, DNS ni el sitio original.
+
+## Ajuste de TV en tres ambientes — 03/11/2026
+
+Por indicación del usuario, el equipamiento informa «2 (dos) TV LCD con programación por cable y DVD. Una de las TV se encuentra en la habitación con cama matrimonial». Confirmación y texto sincronizados en `CONTENT.md` y `src/data/accommodations.ts`. Se registró en `CONTENT.md` la actualización pendiente del plano de dos ambientes, a la espera del archivo nuevo.
+
+`pnpm check`: 42 archivos, 0 errores/advertencias/sugerencias. `pnpm build`: satisfactorio, 2 páginas estáticas. `pnpm verify:preservation`: pasó, 57 originales, 8 fotos aportadas y 4 capturas ANTES. Comprobación del HTML generado: nuevo texto presente solo en tres ambientes, textos de TV de las otras tipologías conservados y noindex vigente. `git diff --check`: sin errores de whitespace.
+
+Cambio editorial sin interacciones afectadas; no se repitieron Playwright, axe ni capturas.

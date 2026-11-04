@@ -38,6 +38,8 @@ Fuente: https://www.acaciasapart.com.ar/ — relevamiento del 31/10/2026. El HTM
 
 Superficie publicada: 40 m². Capacidad: 5 personas. Mascotas: no permitidas.
 
+Equipamiento de TV actualizado por indicación del usuario el 03/11/2026.
+
 - Estar con sofá cama.
 - Comedor para cinco personas.
 - Dormitorio con cama matrimonial, ropa blanca, amplio guardado y aire acondicionado.
@@ -48,7 +50,7 @@ Superficie publicada: 40 m². Capacidad: 5 personas. Mascotas: no permitidas.
 - Wifi.
 - Parrilla compartida.
 - Servicio de sábanas y toallas.
-- TV LCD con programación por cable y DVD.
+- 2 (dos) TV LCD con programación por cable y DVD. Una de las TV se encuentra en la habitación con cama matrimonial.
 - Aire acondicionado frío/calor.
 - Cuna a solicitud del cliente.
 
@@ -73,6 +75,7 @@ Superficie publicada: 40 m². Capacidad: 5 personas. Mascotas: permitidas según
 - Cuna a solicitud del cliente.
 
 Plano original: /img/PLANO%20DEPARTAMENTO%202.pdf.
+Pendiente informado por el usuario el 03/11/2026: actualizar el plano cuando se reciba el archivo nuevo, previsto para el 04/11/2026 o los días siguientes.
 Fotografías: two-room-01, two-room-02, two-room-03, two-room-04, two-room-05, two-room-06. Las tomas two-room-02, two-room-03 y two-room-05 muestran el sofá actualizado (01/11/2026); se reemplazaron las imágenes retiradas del estar.
 
 ## Monoambiente
