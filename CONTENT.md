@@ -20,7 +20,7 @@ Fuente: https://www.acaciasapart.com.ar/ — relevamiento del 31/10/2026. El HTM
 - Instagram: https://www.instagram.com/apartacacias.
 - Facebook: https://www.facebook.com/acaciasapartlapaz.
 - Domicilio: no figura en el texto del sitio.
-- Ubicación: iframe exacto proporcionado por el usuario. Identificador del establecimiento 0x4717c209d2a68023; enlace directo https://www.google.com/maps?cid=5122776448601849891. Las coordenadas de centrado no acreditan un domicilio postal. El iframe se carga automáticamente al entrar en la página; no hay botón intermedio.
+- Ubicación: iframe proporcionado por el usuario. Identificador del establecimiento 0x4717c209d2a68023 y enlace directo https://www.google.com/maps?cid=5122776448601849891. Las coordenadas de centrado no acreditan un domicilio postal. El mapa se carga automáticamente al acercarse a la sección de ubicación, sin botón intermedio.
 
 ## Servicios generales
 
@@ -74,8 +74,7 @@ Superficie publicada: 40 m². Capacidad: 5 personas. Mascotas: permitidas según
 - Calefacción por tiro balanceado y aire acondicionado frío/calor.
 - Cuna a solicitud del cliente.
 
-Plano original: /img/PLANO%20DEPARTAMENTO%202.pdf.
-Pendiente informado por el usuario el 03/11/2026: actualizar el plano cuando se reciba el archivo nuevo, previsto para el 04/11/2026 o los días siguientes.
+Plano vigente: /img/PLANO%20DEPARTAMENTO%202.pdf. El usuario aportó el PDF actualizado el 06/11/2026. La URL pública se conserva y el plano anterior está en el archivo de originales.
 Fotografías: two-room-01, two-room-02, two-room-03, two-room-04, two-room-05, two-room-06. Las tomas two-room-02, two-room-03 y two-room-05 muestran el sofá actualizado (01/11/2026); se reemplazaron las imágenes retiradas del estar.
 
 ## Monoambiente

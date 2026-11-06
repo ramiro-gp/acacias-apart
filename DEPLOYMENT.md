@@ -18,15 +18,15 @@ La portada y el hero AVIF respondieron HTTP 200; HTML con `noindex,nofollow`, 41
 
 Wiroos documenta [Administrador de archivos de cPanel y public_html](https://clientes.wiroos.com/index.php?rp=%2Fknowledgebase%2F176%2FiComo-subir-archivos-utilizando-el-cPanel.html) y también [subida por FTP](https://clientes.wiroos.com/knowledgebase/98/Como_subo_mi_sitio_a_los_servidores_de_Wiroos.html). Consultado el 31/10/2026. Esto acredita opciones generales del proveedor, no el panel ni la raíz concreta de esta cuenta. Confirmarlos desde el panel o soporte antes de reemplazar nada.
 
-## Vercel: preview temporal preparado, sin publicar
+## Vercel: vista previa temporal
 
 El usuario pidió dejar el repositorio listo para mostrar la propuesta. Se configuró `vercel.json`: framework Astro, instalación `pnpm install --frozen-lockfile`, comando `pnpm build:preview` y salida `dist/`. `package.json` requiere Node `>=22.23.4` y pnpm `11.7.0`; comprobar en el primer registro de compilación que Vercel resuelva una versión de Node que cumpla ese mínimo.
 
 `build:preview` fuerza `SITE_RELEASE=false` aun si el entorno recibe otra variable. El HTML conserva `noindex,nofollow`, `robots.txt` prohíbe el rastreo y no se genera sitemap. El build indexable de `build:release` queda reservado a la publicación definitiva en Wiroos. No se incorporó analítica ni se cambiaron DNS, dominio o canonical del sitio definitivo.
 
-**Límite comercial comprobado el 31/10/2026:** el sitio promociona un alojamiento que opera como negocio. Los términos de Vercel reservan Hobby para uso personal y exigen Pro o Enterprise para el comercial. La [definición de uso comercial](https://vercel.com/docs/limits/fair-use-guidelines) incluye despliegues orientados a la ganancia; revisar también los [términos vigentes](https://vercel.com/legal/terms) y [planes](https://vercel.com/pricing). No desplegar este proyecto comercial en Hobby. La conexión de Vercel consultada no mostró equipos ni proyectos; no se creó un proyecto ni se publicó una URL. Para habilitar el preview se requiere acceso a una cuenta con plan Pro/Enterprise.
+**Límite comercial:** el sitio promociona un alojamiento que opera como negocio. Vercel reserva Hobby para uso personal y exige Pro o Enterprise para el comercial. Confirmar el plan del equipo antes de un push que dispare un despliegue. [Condiciones de uso comercial de Vercel](https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage).
 
-### Pasos para habilitarlo cuando la cuenta comercial esté disponible
+### Configuración prevista para una vista previa
 
 1. Abrir Vercel con la cuenta/equipo Pro o Enterprise de la propietaria e importar `https://github.com/ramiro-gp/acacias-apart.git` desde GitHub.
 2. Conservar `main` como rama estable. En ajustes de Git, dejar como «Production Branch» una rama de publicación que no se use mientras la web definitiva siga en Wiroos; así los pushes de `main` crean previews, no una implementación marcada como producción. No agregar dominio personalizado.
@@ -34,7 +34,7 @@ El usuario pidió dejar el repositorio listo para mostrar la propuesta. Se confi
 4. Vercel crea un deployment preview para cada push a una rama que no sea la rama de producción configurada. Compartir solo la URL del preview con la propietaria. No usarla como canonical ni solicitar su indexación.
 5. Al aceptar y publicar la versión definitiva en Wiroos por separado, eliminar el proyecto de Vercel o desconectar su integración de GitHub y retirar los previews. Verificar que `www.acaciasapart.com.ar` siga en Wiroos y que el sitio original no haya cambiado.
 
-Estado de acceso observado: las herramientas conectadas no devolvieron equipos ni proyectos Vercel; por eso quedan pendientes la conexión de GitHub a Vercel, confirmar plan/acceso Pro y crear el preview. No se pidió acceso a credenciales ni se intentó publicar.
+El 06/11/2026 se comprobó que [acacias-apart.vercel.app](https://acacias-apart.vercel.app/) servía el commit `5d25dd9` con `noindex`. Vercel registró el despliegue de `main` como Production mediante la integración con GitHub. La URL se usa como vista previa del proyecto. La conexión disponible pudo consultar el despliegue, pero devolvió HTTP 403 al consultar el equipo y su plan.
 
 ## Paquete preparado
 

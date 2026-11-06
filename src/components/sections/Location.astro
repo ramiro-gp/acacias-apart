@@ -5,7 +5,7 @@ import Icon from '../ui/Icon.astro';
 <section id="ubicacion" class="location-section shell" aria-labelledby="location-title">
   <div class="location-copy"><p class="eyebrow">DÓNDE ENCONTRARNOS</p><h2 id="location-title">Nos vemos<br />en <em>La Paz.</em></h2><p>Acacias Apart<br />La Paz, Entre Ríos, Argentina.</p><a class="text-link" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Cómo llegar en Google Maps <Icon name="arrow" size={18} /><span class="sr-only">(se abre en otra pestaña)</span></a></div>
   <div class="map-frame">
-    <iframe src={site.mapsEmbedUrl} title="Ubicación de Acacias Apart en Google Maps" width="600" height="450" allowfullscreen loading="eager" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe src={site.mapsEmbedUrl} title="Ubicación de Acacias Apart en Google Maps" width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <noscript><p><a class="text-link" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Abrir ubicación en Google Maps ↗</a></p></noscript>
   </div>
 </section>

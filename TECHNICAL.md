@@ -4,7 +4,7 @@
 
 Versiones verificadas el 31/10/2026 y fijadas en package.json/pnpm-lock.yaml: Astro 7.4.4, TypeScript 6.0.3, Tailwind 4.3.3 con @tailwindcss/vite 4.3.3, PhotoSwipe 5.4.4, pnpm 11.7.0; fuentes variables Fraunces y Manrope 5.3.0. Node >=22.23.4; entorno utilizado 24.12.0. No hay adaptador de servidor ni runtime de Node en producción.
 
-Astro genera HTML estático; Sharp procesa imágenes durante el build. Hero AVIF/WebP/JPEG con prioridad alta; el resto WebP/JPEG responsive, dimensiones explícitas y carga diferida. Galerías con masonry CSS balanceado y proporción natural; hero con encuadre editorial. Fuentes WOFF2 y licencias locales. El iframe de Google Maps se carga automáticamente; es la integración de terceros de la página.
+Astro genera HTML estático con los estilos incluidos en cada página para evitar una solicitud CSS antes de mostrar el contenido. Sharp procesa imágenes durante el build. La foto principal de la portada tiene prioridad alta y la secundaria tiene prioridad baja. Ambas ofrecen AVIF/WebP/JPEG responsive. Las galerías usan WebP/JPEG con dimensiones explícitas, carga diferida y proporción natural. Las fuentes WOFF2 y sus licencias son locales. El iframe de Google Maps se carga automáticamente al acercarse a la ubicación gracias a `loading="lazy"`.
 
 ## Organización y datos
 

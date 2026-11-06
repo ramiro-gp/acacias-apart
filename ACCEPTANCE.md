@@ -120,3 +120,27 @@ Por indicación del usuario, el equipamiento informa «2 (dos) TV LCD con progra
 `pnpm check`: 42 archivos, 0 errores/advertencias/sugerencias. `pnpm build`: satisfactorio, 2 páginas estáticas. `pnpm verify:preservation`: pasó, 57 originales, 8 fotos aportadas y 4 capturas ANTES. Comprobación del HTML generado: nuevo texto presente solo en tres ambientes, textos de TV de las otras tipologías conservados y noindex vigente. `git diff --check`: sin errores de whitespace.
 
 Cambio editorial sin interacciones afectadas; no se repitieron Playwright, axe ni capturas.
+
+## Rendimiento de la portada — 06/11/2026
+
+El [informe de PageSpeed del preview](https://pagespeed.web.dev/analysis/https-acacias-apart-vercel-app/pr8wwqshe2?form_factor=mobile) dio 82 en móvil y 98 en escritorio. En móvil, el título principal fue el LCP a los 3,5 s y Google Maps transfirió 467 KiB. El build incluye ahora el CSS en el HTML. El mapa se carga al acercarse a la ubicación y la foto secundaria ofrece AVIF con prioridad baja.
+
+Comparación del build estático local con Lighthouse 13.6.0 y Chromium 151, perfiles predeterminados con limitación simulada y corridas secuenciales. Los informes de esta iteración están en `artifacts/performance-2026-11-06/`.
+
+| Build | Corridas | Rendimiento | LCP | Solicitudes iniciales de Maps |
+|---|---:|---|---|---:|
+| Línea de base móvil | 2 | 97 y 99 | 2,08 s y 1,73 s | 16 en cada corrida |
+| Optimizado móvil | 2 | 100 y 100 | 0,83 s y 0,83 s | 0 |
+| Optimizado escritorio | 1 | 100 | 0,57 s | 0 |
+
+El CSS dejó de requerir una solicitud aparte. En la primera corrida móvil, la foto secundaria seleccionada pasó de 19.108 bytes en WebP a 15.113 bytes en AVIF. TBT y CLS fueron 0 en las corridas locales. La medición compara los cambios en conjunto. Para conocer el resultado en Vercel, hace falta repetir PageSpeed sobre la versión publicada.
+
+`pnpm check` pasó con 42 archivos y sin diagnósticos. `pnpm build` generó dos páginas estáticas con `noindex` y `robots.txt` bloqueado. `pnpm verify:preservation` verificó 57 originales, 8 fotos aportadas y 4 capturas ANTES. El plano de dos ambientes del build coincide con el PDF aportado en `public/img/`.
+
+Playwright en Chromium a 390 y 1440 px confirmó cero solicitudes a Maps al entrar y HTTP 200 con controles visibles al desplazarse al iframe. La captura móvil del mapa mostró el marcador de Acacias Apart. Se comprobó el enlace de WhatsApp sobre el mapa y, en la galería, la apertura, el cierre con Escape y la restauración del foco. Axe dio cero infracciones en la sección de ubicación y en el visor. El análisis de la sección excluyó el contenido interno del iframe de terceros. A 320 px se verificó el acceso directo a la ubicación y al enlace de Maps con JavaScript desactivado, sin desborde horizontal.
+
+## Plano actualizado de dos ambientes — 06/11/2026
+
+La ficha de dos ambientes enlaza a `/img/PLANO%20DEPARTAMENTO%202.pdf`. El PDF aportado tiene 31.907 bytes y SHA-256 `95bc4bb88c2119cda030d835c0c2c314049e62592bb54a27924c26aca89d9110`. El build de preview incluye exactamente esos bytes y el plano anterior pasó la verificación del archivo de originales. Antes del push, la URL de Vercel respondía HTTP 200 con el PDF anterior de 7.407 bytes.
+
+`pnpm check`, `pnpm build:preview` y `pnpm verify:preservation` pasaron. Se verificaron `noindex`, robots bloqueado, el enlace dentro de la ficha y la firma PDF en el build local. El cambio del archivo conserva la interacción del enlace. Las pruebas de mapa y galería corresponden a la optimización de la sección anterior.
